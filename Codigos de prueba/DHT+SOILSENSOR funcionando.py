@@ -5,12 +5,14 @@ import serial
 import adafruit_dht
 import board
 
-DHT_PIN = board.D17
+
+
+DHT_PIN = board.D17         #Configuro el GPIO17
 DHT_READ_PERIOD = 3.0
 BAUD = 115200
 
 def find_arduino_port():
-    candidates = glob.glob("/dev/ttyACM*") + glob.glob("/dev/ttyUSB*")
+    candidates = glob.glob("/dev/ttyACM*") + glob.glob("/dev/ttyUSB*") #Verifico por que puerto recibo la comunicacion serie
     if not candidates:
         return None
     return candidates[0]
@@ -30,11 +32,11 @@ def main():
     if port:
         try:
             ser = open_port(port, BAUD)
-            print(f"? Puerto Arduino conectado: {port} @ {BAUD} baudios")
+            print(f"Puerto Arduino conectado: {port} @ {BAUD} baudios")
         except Exception as e:
-            print(f"? No se pudo abrir {port} para Arduino: {e}", file=sys.stderr)
+            print(f"No se pudo abrir {port} para Arduino: {e}", file=sys.stderr)
     else:
-        print("? No se encontr ningn Arduino conectado.")
+        print("No se encontro ningun Arduino conectado.")
 
     print("\nIniciando monitoreo. Ctrl+C para detener.")
     print("---------------------------------------------------------------------------------")
@@ -55,7 +57,7 @@ def main():
                     last_serial_activity_time = now
             
             if ser is not None and now - last_serial_activity_time > 3:
-                 print("?? No llegan lneas del Arduino. Verifica cable/sketch.", file=sys.stderr)
+                 print("No llegan lineas del Arduino. Verifica cable/sketch.", file=sys.stderr)
                  last_serial_activity_time = now
 
             hum_air = None
