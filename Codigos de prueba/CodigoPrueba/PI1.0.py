@@ -14,7 +14,7 @@ PIN_BOMBA = 19
 PIN_VENTILADOR = 13
 
 # --- UMBRALES DE CONTROL ---
-UMBRAL_LUZ_BAJA = 300     # Valor de LDR para prender el foco
+UMBRAL_LUZ_BAJA = 400     # Valor de LDR para prender el foco
 UMBRAL_SUELO_BAJO = 450   # Valor del sensor de humedad del suelo para regar
 UMBRAL_AIRE_ALTO = 70.0   # Porcentaje de humedad (del DHT) para ventilar
 
@@ -51,9 +51,9 @@ def main():
     else:
         print("? No se encontr ningn Arduino conectado.")
 
-# --- CONFIGURACIÓN GPIO ---
+# --- CONFIGURACIÃ“N GPIO ---
     print("Inicializando pines GPIO...")
-    GPIO.setmode(GPIO.BCM) # Usar numeración de pines BCM
+    GPIO.setmode(GPIO.BCM) # Usar numeraciÃ³n de pines BCM
     GPIO.setup(PIN_FOCO, GPIO.OUT, initial=GPIO.LOW)
     GPIO.setup(PIN_BOMBA, GPIO.OUT, initial=GPIO.LOW)
     GPIO.setup(PIN_VENTILADOR, GPIO.OUT, initial=GPIO.LOW)
@@ -104,7 +104,7 @@ def main():
                     print(f"Error temporal de lectura DHT: {e}. Reintentando...")
 
 # --- Logica de sensores y actuadores ---
-                # 1. Control de Iluminación (Foco)
+                # 1. Control de IluminaciÃ³n (Foco)
                 if luz is not None:
                     if luz < UMBRAL_LUZ_BAJA:
                         GPIO.output(PIN_FOCO, GPIO.HIGH) # Prender foco
@@ -117,7 +117,7 @@ def main():
                         GPIO.output(PIN_BOMBA, GPIO.HIGH) # Prender bomba
                     else:
                         GPIO.output(PIN_BOMBA, GPIO.LOW)  # Apagar bomba
-                # 3. Control de Ventilación
+                # 3. Control de VentilaciÃ³n
                 if hum_air is not None:
                     if hum_air > UMBRAL_AIRE_ALTO:
                         GPIO.output(PIN_VENTILADOR, GPIO.HIGH) # Prender ventilador
@@ -142,5 +142,5 @@ def main():
         GPIO.cleanup()
 
 # --- EJECUCION ---
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
