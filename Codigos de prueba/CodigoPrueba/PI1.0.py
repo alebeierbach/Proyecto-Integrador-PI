@@ -15,7 +15,7 @@ PIN_VENTILADOR = 13
 
 # --- UMBRALES DE CONTROL ---
 UMBRAL_LUZ_BAJA = 400     # Valor de LDR para prender el foco
-UMBRAL_SUELO_BAJO = 450   # Valor del sensor de humedad del suelo para regar
+UMBRAL_SUELO_BAJO = 570   # Valor del sensor de humedad del suelo para regar
 UMBRAL_AIRE_ALTO = 70.0   # Porcentaje de humedad (del DHT) para ventilar
 
 DHT_READ_PERIOD = 3.0
@@ -51,7 +51,7 @@ def main():
     else:
         print("? No se encontr ningn Arduino conectado.")
 
-# --- CONFIGURACIÃ“N GPIO ---
+# --- CONFIGURACIÃN GPIO ---
     print("Inicializando pines GPIO...")
     GPIO.setmode(GPIO.BCM) # Usar numeraciÃ³n de pines BCM
     GPIO.setup(PIN_FOCO, GPIO.OUT, initial=GPIO.LOW)
@@ -88,12 +88,7 @@ def main():
                             print(f"? Error al parsear datos Arduino: {line} ({e})")
 
                     last_serial_activity_time = now
-
-            # --- Verifica actividad del puerto ---
-            if ser is not None and now - last_serial_activity_time > 3:
-                print("No llegan lineas del Arduino. Verifica cable/sketch.", file=sys.stderr)
-                last_serial_activity_time = now
-
+        
 # --- Lectura del DHT22 ---
             if now - last_dht_read_time >= DHT_READ_PERIOD:
                 try:
@@ -103,7 +98,7 @@ def main():
                 except RuntimeError as e:
                     print(f"Error temporal de lectura DHT: {e}. Reintentando...")
 
-# --- Logica de sensores y actuadores ---
+# --- Logica de sensores y actuadores ---GSSS
                 # 1. Control de IluminaciÃ³n (Foco)
                 if luz is not None:
                     if luz < UMBRAL_LUZ_BAJA:
@@ -114,9 +109,9 @@ def main():
                 if humedad_suelo is not None:
                     # OJO: Verifica tu sensor. Asumo que un valor ALTO = SECO
                     if humedad_suelo > UMBRAL_SUELO_BAJO:
-                        GPIO.output(PIN_BOMBA, GPIO.HIGH) # Prender bomba
+                        GPIO.output(PIN_BOMBA, GPIO.LOW) # PrendSer bomba
                     else:
-                        GPIO.output(PIN_BOMBA, GPIO.LOW)  # Apagar bomba
+                        GPIO.output(PIN_BOMBA, GPIO.HIGH)  # Apagar bomba
                 # 3. Control de VentilaciÃ³n
                 if hum_air is not None:
                     if hum_air > UMBRAL_AIRE_ALTO:
@@ -133,6 +128,13 @@ def main():
 
             print(" | ".join(out_parts))
             time.sleep(2)
+
+            # --- Verifica actividad del puerto ---
+            if ser is not None and now - last_serial_activity_time > 3:
+                print("No llegan lineas del Arduino. Verifica cable/sketch.", file=sys.stderr)
+                last_serial_activity_time = now
+
+
 
     except KeyboardInterrupt:
         print("\nDetenido por el usuario.")
