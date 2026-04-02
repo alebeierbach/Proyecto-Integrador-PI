@@ -13,7 +13,7 @@ enabled = true
 
 [thingspeak]
 enabled = true
-api_key = "TU_API_KEY"
+api_key = "F0EYLJ4TRFHRHDJ1"
 url = "https://api.thingspeak.com/update"
 
 [thingspeak.fields]
@@ -45,7 +45,7 @@ enabled = true
 umbral_humedad_suelo_pct = 70
 umbral_humedad_ambiente_pct = 80
 umbral_temperatura_c = 30
-umbral_lux = 500
+umbral_lux = 5000
 modo_luz = "sensor"
 hora_inicio_luz = 18
 hora_fin_luz = 6
@@ -55,12 +55,12 @@ sensor_power_gpio = 27
 [macetas.maceta1.humedad_suelo.sensor1]
 enabled = true
 adc = "adc1"
-canal = 0
+canal = 2
 
 [macetas.maceta1.humedad_suelo.sensor2]
 enabled = true
 adc = "adc1"
-canal = 1
+canal = 3
 
 [macetas.maceta1.bh1750]
 enabled = true
@@ -102,12 +102,12 @@ sensor_power_gpio = -1
 [macetas.maceta2.humedad_suelo.sensor1]
 enabled = false
 adc = "adc1"
-canal = 2
+canal = 1
 
 [macetas.maceta2.humedad_suelo.sensor2]
 enabled = false
 adc = "adc1"
-canal = 3
+canal = 0
 
 [macetas.maceta2.bh1750]
 enabled = false

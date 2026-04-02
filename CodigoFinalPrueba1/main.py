@@ -26,10 +26,11 @@ def crear_estado_inicial(config) -> SystemState:
     return estado
 
 
-def leer_maceta(hw: HardwareManager, maceta) -> Dict[str, Optional[float]]:
+def leer_maceta(hw: HardwareManager, maceta, luz_actual: bool) -> Dict[str, Optional[float]]:
     raw1 = None
     raw2 = None
-    lux = None
+    lux_ambiente = None
+    lux_foco = None # <-- Agregamos la variable
     temperatura_c = None
     humedad_ambiente_pct = None
 
@@ -40,22 +41,30 @@ def leer_maceta(hw: HardwareManager, maceta) -> Dict[str, Optional[float]]:
         time.sleep(2)
 
     if maceta.sensor_humedad_1.enabled:
-        raw1 = hw.leer_humedad_raw(
-            maceta.sensor_humedad_1.adc,
-            maceta.sensor_humedad_1.canal
-        )
+        raw1 = hw.leer_humedad_raw(maceta.sensor_humedad_1.adc, maceta.sensor_humedad_1.canal)
 
     if maceta.sensor_humedad_2.enabled:
-        raw2 = hw.leer_humedad_raw(
-            maceta.sensor_humedad_2.adc,
-            maceta.sensor_humedad_2.canal
-        )
+        raw2 = hw.leer_humedad_raw(maceta.sensor_humedad_2.adc, maceta.sensor_humedad_2.canal)
 
     if necesita_humedad and maceta.sensor_power_gpio >= 0:
         hw.set_sensor_power_maceta(maceta, False)
 
     if maceta.bh1750.enabled:
-        lux = hw.leer_lux(maceta.nombre)
+        if luz_actual:
+            # 1. Medir con foco encendido
+            lux_foco = hw.leer_lux(maceta.nombre)
+            
+            # 2. Apagar, esperar y medir ambiente
+            hw.set_luz_maceta(maceta, False)
+            time.sleep(2) 
+            lux_ambiente = hw.leer_lux(maceta.nombre)
+            
+            # 3. Restaurar la luz
+            hw.set_luz_maceta(maceta, True)
+        else:
+            # Si el foco está apagado, la luz actual ES la luz ambiente
+            lux_ambiente = hw.leer_lux(maceta.nombre)
+            # lux_foco queda en None
 
     if maceta.dht.enabled:
         temperatura_c, humedad_ambiente_pct = hw.leer_dht(maceta.nombre)
@@ -63,7 +72,8 @@ def leer_maceta(hw: HardwareManager, maceta) -> Dict[str, Optional[float]]:
     return {
         "humedad_raw_1": raw1,
         "humedad_raw_2": raw2,
-        "lux": lux,
+        "lux": lux_ambiente,    # Se usará para la lógica
+        "lux_foco": lux_foco,   # Se usará para el registro y pantalla
         "temperatura_c": temperatura_c,
         "humedad_ambiente_pct": humedad_ambiente_pct,
     }
@@ -74,13 +84,14 @@ def imprimir_estado_maceta(nombre_maceta: str, estado: MacetaEstado) -> None:
         f"Suelo: {estado.humedad_suelo_1_pct} / {estado.humedad_suelo_2_pct} "
         f"(prom={estado.humedad_suelo_promedio_pct})"
     )
+    print(f"Raw: {estado.humedad_suelo_raw_1} / {estado.humedad_suelo_raw_2}")
+    
+    # <-- Actualizamos esta línea:
     print(
-        f"Raw: {estado.humedad_suelo_raw_1} / {estado.humedad_suelo_raw_2}"
+        f"Lux Amb: {estado.lux} | Lux Foco: {estado.lux_foco} | "
+        f"Temp: {estado.temperatura_c} | HumAmb: {estado.humedad_ambiente_pct}"
     )
-    print(
-        f"Lux: {estado.lux} | Temp: {estado.temperatura_c} | "
-        f"HumAmb: {estado.humedad_ambiente_pct}"
-    )
+    
     print(
         f"Luz: {estado.luz_encendida} | Vent: {estado.ventilador_encendido} | "
         f"Riego: {estado.riego_pendiente}"
@@ -109,7 +120,8 @@ def guardar_csv(config, estados: Dict[str, MacetaEstado], ahora: datetime) -> No
                 "humedad_pct_1",
                 "humedad_pct_2",
                 "humedad_pct_promedio",
-                "lux",
+                "lux",          # (ambiente)
+                "lux_foco",     
                 "temperatura_c",
                 "humedad_ambiente_pct",
                 "luz_encendida",
@@ -129,6 +141,7 @@ def guardar_csv(config, estados: Dict[str, MacetaEstado], ahora: datetime) -> No
                 valor_csv(estado.humedad_suelo_2_pct),
                 valor_csv(estado.humedad_suelo_promedio_pct),
                 valor_csv(estado.lux),
+                valor_csv(estado.lux_foco), 
                 valor_csv(estado.temperatura_c),
                 valor_csv(estado.humedad_ambiente_pct),
                 int(estado.luz_encendida),

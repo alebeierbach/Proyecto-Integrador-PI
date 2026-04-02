@@ -160,7 +160,8 @@ def procesar_maceta(
 
     raw1 = lecturas.get("humedad_raw_1")
     raw2 = lecturas.get("humedad_raw_2")
-    lux = lecturas.get("lux")
+    lux = lecturas.get("lux")              
+    lux_foco = lecturas.get("lux_foco")    
     temperatura_c = lecturas.get("temperatura_c")
     humedad_ambiente_pct = lecturas.get("humedad_ambiente_pct")
 
@@ -175,6 +176,8 @@ def procesar_maceta(
     nuevo_estado.humedad_suelo_1_pct = hum1
     nuevo_estado.humedad_suelo_2_pct = hum2
     nuevo_estado.humedad_suelo_promedio_pct = promedio
+    nuevo_estado.lux = lux
+    nuevo_estado.lux_foco = lux_foco
 
     if lectura_dht_valida(temperatura_c, humedad_ambiente_pct):
         nuevo_estado.temperatura_c = temperatura_c
@@ -189,7 +192,7 @@ def procesar_maceta(
 
     luz_encendida, alertas_luz = decidir_luz(
         maceta,
-        lux,
+        lux, # Le pasamos la luz ambiente para la toma de decisiones
         ahora.hour,
         estado.luz_encendida
     )
