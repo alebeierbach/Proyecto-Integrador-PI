@@ -62,7 +62,7 @@ def leer_maceta(hw: HardwareManager, maceta, luz_actual: bool) -> Dict[str, Opti
             # 3. Restaurar la luz
             hw.set_luz_maceta(maceta, True)
         else:
-            # Si el foco está apagado, la luz actual ES la luz ambiente
+            # Si el foco estÃ¡ apagado, la luz actual ES la luz ambiente
             lux_ambiente = hw.leer_lux(maceta.nombre)
             # lux_foco queda en None
 
@@ -72,8 +72,8 @@ def leer_maceta(hw: HardwareManager, maceta, luz_actual: bool) -> Dict[str, Opti
     return {
         "humedad_raw_1": raw1,
         "humedad_raw_2": raw2,
-        "lux": lux_ambiente,    # Se usará para la lógica
-        "lux_foco": lux_foco,   # Se usará para el registro y pantalla
+        "lux": lux_ambiente,    # Se usarÃ¡ para la lÃ³gica
+        "lux_foco": lux_foco,   # Se usarÃ¡ para el registro y pantalla
         "temperatura_c": temperatura_c,
         "humedad_ambiente_pct": humedad_ambiente_pct,
     }
@@ -86,7 +86,7 @@ def imprimir_estado_maceta(nombre_maceta: str, estado: MacetaEstado) -> None:
     )
     print(f"Raw: {estado.humedad_suelo_raw_1} / {estado.humedad_suelo_raw_2}")
     
-    # <-- Actualizamos esta línea:
+    # <-- Actualizamos esta lÃ­nea:
     print(
         f"Lux Amb: {estado.lux} | Lux Foco: {estado.lux_foco} | "
         f"Temp: {estado.temperatura_c} | HumAmb: {estado.humedad_ambiente_pct}"
@@ -237,7 +237,7 @@ def main():
                     continue
 
                 estado_anterior = estado_sistema.macetas[nombre_maceta]
-                lecturas = leer_maceta(hw, maceta)
+                lecturas = leer_maceta(hw, maceta, estado_anterior.luz_encendida)
 
                 nuevo_estado = procesar_maceta(
                     maceta=maceta,
