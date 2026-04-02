@@ -118,8 +118,8 @@ class MacetaEstado:
     humedad_suelo_promedio_pct: Optional[float] = None
     humedad_suelo_raw_1: Optional[int] = None
     humedad_suelo_raw_2: Optional[int] = None
-    lux: Optional[float] = None          # Este seguirá siendo el lux ambiente
-    lux_foco: Optional[float] = None     # <-- NUEVO CAMPO A AGREGAR
+    lux: Optional[float] = None          
+    lux_foco: Optional[float] = None     
     temperatura_c: Optional[float] = None
     humedad_ambiente_pct: Optional[float] = None
     luz_encendida: bool = False
