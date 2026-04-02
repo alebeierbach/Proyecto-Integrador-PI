@@ -30,7 +30,7 @@ def leer_maceta(hw: HardwareManager, maceta, luz_actual: bool) -> Dict[str, Opti
     raw1 = None
     raw2 = None
     lux_ambiente = None
-    lux_foco = None # <-- Agregamos la variable
+    lux_foco = None 
     temperatura_c = None
     humedad_ambiente_pct = None
 
