@@ -1,0 +1,100 @@
+% ====================== CODIFICACIÓN E IDIOMA ======================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-nodecimaldot]{babel}
+
+% ====================== FUENTE ======================
+% Aproximación a Times New Roman
+\usepackage{newtxtext,newtxmath}
+
+% ====================== GEOMETRÍA ======================
+\usepackage[a4paper,left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+
+% ====================== INTERLINEADO ======================
+\usepackage{setspace}
+\onehalfspacing
+
+% ====================== MATEMÁTICA Y UNIDADES ======================
+\let\Bbbk\relax
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{siunitx}
+
+% ====================== IMÁGENES Y TABLAS ======================
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{longtable}
+\usepackage{caption}
+\captionsetup{font=normalsize,labelfont=bf}
+
+% ====================== HIPERVÍNCULOS ======================
+\usepackage[hidelinks]{hyperref}
+
+% ====================== LISTADOS ======================
+\usepackage{listings}
+\usepackage{upquote}
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single,
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    tabsize=4,
+    captionpos=b
+}
+
+% ====================== ENCABEZADO Y PIE ======================
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% ====================== TÍTULOS ======================
+\usepackage{titlesec}
+
+\titleformat{\chapter}[display]
+    {\bfseries\fontsize{14}{16}\selectfont}
+    {Capítulo \thechapter}
+    {0.5em}
+    {}
+
+\titleformat{\section}
+    {\bfseries\fontsize{12}{14}\selectfont}
+    {\thesection}
+    {1em}
+    {}
+
+\titleformat{\subsection}
+    {\normalfont\fontsize{12}{14}\selectfont}
+    {\thesubsection}
+    {1em}
+    {}
+
+\titlespacing*{\chapter}{0pt}{0pt}{3\baselineskip}
+\titlespacing*{\section}{0pt}{0pt}{3\baselineskip}
+\titlespacing*{\subsection}{0pt}{0pt}{1.5\baselineskip}
+
+% ====================== ESPACIADO EN BIBLIOGRAFÍA ======================
+\newcommand{\biblioitem}[1]{\par\noindent #1 \par\vspace{0.75\baselineskip}}
+
+% ====================== COMANDOS ÚTILES ======================
+\newcommand{\Fuente}[1]{%
+    \vspace{0.3cm}
+    \begin{center}
+        \small Fuente: #1
+    \end{center}
+}
+
+\newcommand{\tituloPI}{``TÍTULO DEL TRABAJO''}
+\newcommand{\alumnoA}{Apellido, Nombre}
+\newcommand{\alumnoB}{Apellido, Nombre}
+\newcommand{\directorPI}{Ing. Apellido, Nombre}
+\newcommand{\codirectorPI}{Ing. Apellido, Nombre}
+\newcommand{\mesanio}{Mes / Año}

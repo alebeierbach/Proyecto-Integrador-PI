@@ -1,0 +1,91 @@
+\documentclass[11pt,a4paper,oneside]{report}
+
+\input{preambulo}
+
+\begin{document}
+
+% ====================== PORTADA Y PRELIMINARES ======================
+\pagenumbering{roman}
+
+\input{portada}
+\clearpage
+
+\input{paginas/tribunal}
+\clearpage
+
+\input{paginas/director}
+\clearpage
+
+\input{paginas/dedicatoria}
+\clearpage
+
+\input{paginas/agradecimientos}
+\clearpage
+
+\input{paginas/resumen}
+\clearpage
+
+\input{paginas/abstract}
+\clearpage
+
+\input{paginas/resumo}
+\clearpage
+
+\tableofcontents
+\clearpage
+
+\listoftables
+\addcontentsline{toc}{chapter}{Lista de tablas}
+\clearpage
+
+\listoffigures
+\addcontentsline{toc}{chapter}{Lista de figuras}
+\clearpage
+
+\input{paginas/lista_simbolos}
+\clearpage
+
+% ====================== CUERPO DEL INFORME ======================
+\pagenumbering{arabic}
+
+\input{capitulos/01_introduccion}
+\clearpage
+
+\part*{PARTE I\\MARCO TEÓRICO}
+\addcontentsline{toc}{part}{PARTE I - MARCO TEÓRICO}
+\input{capitulos/02_marco_teorico}
+\clearpage
+
+\part*{PARTE II\\MARCO METODOLÓGICO}
+\addcontentsline{toc}{part}{PARTE II - MARCO METODOLÓGICO}
+\input{capitulos/03_marco_metodologico}
+\input{capitulos/04_desarrollo}
+\clearpage
+
+\part*{PARTE III\\RESULTADOS Y CONCLUSIONES}
+\addcontentsline{toc}{part}{PARTE III - RESULTADOS Y CONCLUSIONES}
+
+\input{secciones/resultados}
+\clearpage
+
+\input{secciones/conclusiones}
+\clearpage
+
+\input{secciones/bibliografia}
+\clearpage
+
+\input{secciones/referencias}
+\clearpage
+
+% ====================== ANEXOS ======================
+\appendix
+\input{anexos/anexo_1}
+\clearpage
+
+\input{anexos/anexo_2}
+\clearpage
+
+\input{anexos/anexo_pi}
+\clearpage
+
+\end{document}
