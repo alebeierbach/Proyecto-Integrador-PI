@@ -42,7 +42,7 @@
 \contentsline {subsection}{\numberline {3.3.1}Sustrato}{18}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Sensores}{18}{subsection.3.3.2}%
 \contentsline {subsubsection}{Sensor de humedad ambiente y temperatura}{18}{subsection.3.3.2}%
-\contentsline {subsubsection}{Sensor de iluminancia}{18}{subsection.3.3.2}%
+\contentsline {subsubsection}{Sensor de iluminancia}{19}{subsection.3.3.2}%
 \contentsline {subsubsection}{Higrómetro de suelo}{19}{subsection.3.3.2}%
 \contentsline {chapter}{\numberline {4}Desarrollo experimental}{20}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Diseño del sistema}{20}{section.4.1}%

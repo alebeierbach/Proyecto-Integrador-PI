@@ -48,7 +48,7 @@ Para resolver estos inconvenientes, se rediseñó la estructura adoptando un enf
     \centering
     \includegraphics[width=0.5\linewidth]{Imagenes/maceta1.jpeg}
     \caption{Implementacion fisica del prototipo}
-    \label{fig:placeholder}
+    \label{fig:placeholder1}
 \end{figure}
 
 \subsubsection{Impermeabilizacion y drenaje} 
@@ -145,7 +145,7 @@ El diseño de esta pieza tuvo como objetivo principal proporcionar un alojamient
     \end{minipage}
 
     \caption{Primer diseno de soporte para sensores}
-    \label{fig:detalles_3d_triple}
+    \label{fig:detalles_3d_triple2}
 \end{figure}
 
 Luego, la implementacion fisica:
@@ -171,7 +171,7 @@ Luego, la implementacion fisica:
     \end{minipage}
 
     \caption{Implementacion fisica.}
-    \label{fig:detalles_3d_triple}
+    \label{fig:detalles_3d_triple1}
 \end{figure}
 
 \subsubsection{Soporte para manguera}
@@ -274,9 +274,8 @@ Esta configuración de "carcasa ventilada" es fundamental para asegurar la integ
 
 
 \section{Selección de componentes}
-\vspace{-0.8cm}
 
-\subsection{Sustrato} \vspace{-0.8cm}
+\subsection{Sustrato}
 La selección del sustrato constituyó una fase crítica en el diseño del sistema, ya que el suelo no solo actúa como el soporte físico de las especies vegetales, sino que funciona como la interfaz principal para la absorción de nutrientes y el intercambio gaseoso radicular. Asimismo, las propiedades físicas del sustrato están intrínsecamente ligadas al desempeño del sistema de drenaje diseñado: una elección incorrecta podría derivar en la compactación del medio, afectando la conductividad hidráulica y provocando anoxia radicular (asfixia de las raíces por acumulación de agua).
 Tras un análisis comparativo de las opciones disponibles en el mercado, se evaluaron variables de costo, densidad, carga nutricional y, fundamentalmente, la capacidad de infiltración. Finalmente, se optó por una mezcla de tierra fértil compuesta por los siguientes elementos, cada uno cumpliendo una función técnica específica dentro del ecosistema del prototipo:
 
@@ -287,7 +286,7 @@ Tras un análisis comparativo de las opciones disponibles en el mercado, se eval
 
 Esta combinación sinérgica garantizó un entorno de crecimiento estable, permitiendo que el hardware de monitoreo (sensores de humedad) registre valores consistentes y que el sistema de drenaje opere según las especificaciones de diseño, asegurando una evolución saludable de los cultivos a lo largo de las pruebas.
 
-\subsection{Sensores} \vspace{-0.8cm}
+\subsection{Sensores}
 
 \subsubsection{Sensor de humedad ambiente y temperatura}
 Para controlar estas variables, se utilizó un sensor digital DHT22. Esta elección se justifica por su rango completo de medición de humedad relativa (0 a 100), el cual supera las limitaciones del DHT11 (20 a 90). Asimismo, ofrece una resolución y estabilidad decimal críticas para lograr un control preciso de los parámetros del sistema. Desde la perspectiva del hardware, destaca por su simplicidad analógica al prescindir de un conversor analógico-digital (ADC), comunicándose mediante un protocolo de un único hilo conectado directamente a los pines GPIO del microcontrolador. Finalmente, el componente fue seleccionado por su bajo costo y su amplia disponibilidad en el mercado.
