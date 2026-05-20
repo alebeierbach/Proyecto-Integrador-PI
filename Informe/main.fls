@@ -454,100 +454,100 @@ INPUT ./Imagenes/desague1.jpeg
 INPUT ./Imagenes/desague1.jpeg
 INPUT ./Imagenes/desague1.jpeg
 INPUT ./Imagenes/desague1.jpeg
-INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
-INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
-INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc
-INPUT ./Imagenes/imagen16.png
-INPUT ./Imagenes/imagen16.png
-INPUT ./Imagenes/imagen16.png
-INPUT ./Imagenes/imagen16.png
-INPUT ./Imagenes/imagen16.png
-INPUT ./Imagenes/imagen17.png
-INPUT ./Imagenes/imagen17.png
-INPUT ./Imagenes/imagen17.png
-INPUT ./Imagenes/imagen17.png
-INPUT ./Imagenes/imagen17.png
-INPUT ./Imagenes/imagen18.png
-INPUT ./Imagenes/imagen18.png
-INPUT ./Imagenes/imagen18.png
-INPUT ./Imagenes/imagen18.png
-INPUT ./Imagenes/imagen18.png
-INPUT ./Imagenes/imagen3.png
-INPUT ./Imagenes/imagen3.png
-INPUT ./Imagenes/imagen3.png
-INPUT ./Imagenes/imagen3.png
-INPUT ./Imagenes/imagen3.png
-INPUT ./Imagenes/imagen9.png
-INPUT ./Imagenes/imagen9.png
-INPUT ./Imagenes/imagen9.png
-INPUT ./Imagenes/imagen9.png
-INPUT ./Imagenes/imagen9.png
-INPUT ./Imagenes/imagen10.png
-INPUT ./Imagenes/imagen10.png
-INPUT ./Imagenes/imagen10.png
-INPUT ./Imagenes/imagen10.png
-INPUT ./Imagenes/imagen10.png
-INPUT ./Imagenes/imagen1.png
-INPUT ./Imagenes/imagen1.png
-INPUT ./Imagenes/imagen1.png
-INPUT ./Imagenes/imagen1.png
-INPUT ./Imagenes/imagen1.png
-INPUT ./Imagenes/imagen8.png
-INPUT ./Imagenes/imagen8.png
-INPUT ./Imagenes/imagen8.png
-INPUT ./Imagenes/imagen8.png
-INPUT ./Imagenes/imagen8.png
-INPUT ./Imagenes/imagen15.png
-INPUT ./Imagenes/imagen15.png
-INPUT ./Imagenes/imagen15.png
-INPUT ./Imagenes/imagen15.png
-INPUT ./Imagenes/imagen15.png
-INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52.jpeg
-INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52.jpeg
-INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52.jpeg
-INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52.jpeg
-INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52.jpeg
-INPUT ./Imagenes/imagen2.png
-INPUT ./Imagenes/imagen2.png
-INPUT ./Imagenes/imagen2.png
-INPUT ./Imagenes/imagen2.png
-INPUT ./Imagenes/imagen2.png
-INPUT ./Imagenes/imagen7.png
-INPUT ./Imagenes/imagen7.png
-INPUT ./Imagenes/imagen7.png
-INPUT ./Imagenes/imagen7.png
-INPUT ./Imagenes/imagen7.png
-INPUT ./Imagenes/imagen11.png
-INPUT ./Imagenes/imagen11.png
-INPUT ./Imagenes/imagen11.png
-INPUT ./Imagenes/imagen11.png
-INPUT ./Imagenes/imagen11.png
-INPUT ./Imagenes/imagen13.png
-INPUT ./Imagenes/imagen13.png
-INPUT ./Imagenes/imagen13.png
-INPUT ./Imagenes/imagen13.png
-INPUT ./Imagenes/imagen13.png
-INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52 (2).jpeg
-INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52 (2).jpeg
-INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52 (2).jpeg
-INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52 (2).jpeg
-INPUT ./Imagenes/imagen1.png
-INPUT ./Imagenes/imagen1.png
-INPUT ./Imagenes/imagen1.png
-INPUT ./Imagenes/imagen1.png
-INPUT ./Imagenes/imagen8.png
-INPUT ./Imagenes/imagen8.png
-INPUT ./Imagenes/imagen8.png
-INPUT ./Imagenes/imagen8.png
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/txfonts/t1xtt.tfm
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm
+INPUT ./Imagenes/imagen16.png
+INPUT ./Imagenes/imagen16.png
+INPUT ./Imagenes/imagen16.png
+INPUT ./Imagenes/imagen16.png
+INPUT ./Imagenes/imagen16.png
+INPUT ./Imagenes/imagen17.png
+INPUT ./Imagenes/imagen17.png
+INPUT ./Imagenes/imagen17.png
+INPUT ./Imagenes/imagen17.png
+INPUT ./Imagenes/imagen17.png
+INPUT ./Imagenes/imagen18.png
+INPUT ./Imagenes/imagen18.png
+INPUT ./Imagenes/imagen18.png
+INPUT ./Imagenes/imagen18.png
+INPUT ./Imagenes/imagen18.png
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc
+INPUT ./Imagenes/imagen3.png
+INPUT ./Imagenes/imagen3.png
+INPUT ./Imagenes/imagen3.png
+INPUT ./Imagenes/imagen3.png
+INPUT ./Imagenes/imagen3.png
+INPUT ./Imagenes/imagen9.png
+INPUT ./Imagenes/imagen9.png
+INPUT ./Imagenes/imagen9.png
+INPUT ./Imagenes/imagen9.png
+INPUT ./Imagenes/imagen9.png
+INPUT ./Imagenes/imagen10.png
+INPUT ./Imagenes/imagen10.png
+INPUT ./Imagenes/imagen10.png
+INPUT ./Imagenes/imagen10.png
+INPUT ./Imagenes/imagen10.png
+INPUT ./Imagenes/imagen1.png
+INPUT ./Imagenes/imagen1.png
+INPUT ./Imagenes/imagen1.png
+INPUT ./Imagenes/imagen1.png
+INPUT ./Imagenes/imagen1.png
+INPUT ./Imagenes/imagen8.png
+INPUT ./Imagenes/imagen8.png
+INPUT ./Imagenes/imagen8.png
+INPUT ./Imagenes/imagen8.png
+INPUT ./Imagenes/imagen8.png
+INPUT ./Imagenes/imagen15.png
+INPUT ./Imagenes/imagen15.png
+INPUT ./Imagenes/imagen15.png
+INPUT ./Imagenes/imagen15.png
+INPUT ./Imagenes/imagen15.png
+INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52.jpeg
+INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52.jpeg
+INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52.jpeg
+INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52.jpeg
+INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52.jpeg
+INPUT ./Imagenes/imagen2.png
+INPUT ./Imagenes/imagen2.png
+INPUT ./Imagenes/imagen2.png
+INPUT ./Imagenes/imagen2.png
+INPUT ./Imagenes/imagen2.png
+INPUT ./Imagenes/imagen7.png
+INPUT ./Imagenes/imagen7.png
+INPUT ./Imagenes/imagen7.png
+INPUT ./Imagenes/imagen7.png
+INPUT ./Imagenes/imagen7.png
+INPUT ./Imagenes/imagen11.png
+INPUT ./Imagenes/imagen11.png
+INPUT ./Imagenes/imagen11.png
+INPUT ./Imagenes/imagen11.png
+INPUT ./Imagenes/imagen11.png
+INPUT ./Imagenes/imagen13.png
+INPUT ./Imagenes/imagen13.png
+INPUT ./Imagenes/imagen13.png
+INPUT ./Imagenes/imagen13.png
+INPUT ./Imagenes/imagen13.png
+INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52 (2).jpeg
+INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52 (2).jpeg
+INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52 (2).jpeg
+INPUT ./Imagenes/prototipo Image 2026-04-20 at 11.35.52 (2).jpeg
+INPUT ./Imagenes/imagen1.png
+INPUT ./Imagenes/imagen1.png
+INPUT ./Imagenes/imagen1.png
+INPUT ./Imagenes/imagen1.png
+INPUT ./Imagenes/imagen8.png
+INPUT ./Imagenes/imagen8.png
+INPUT ./Imagenes/imagen8.png
+INPUT ./Imagenes/imagen8.png
 INPUT ./capitulos/04_desarrollo.tex
 INPUT ./capitulos/04_desarrollo.tex
 INPUT ./capitulos/04_desarrollo.tex
