@@ -542,6 +542,12 @@ INPUT ./Imagenes/imagen8.png
 INPUT ./Imagenes/imagen8.png
 INPUT ./Imagenes/imagen8.png
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/txfonts/t1xtt.tfm
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
 INPUT ./capitulos/04_desarrollo.tex
 INPUT ./capitulos/04_desarrollo.tex
 INPUT ./capitulos/04_desarrollo.tex
@@ -563,7 +569,6 @@ INPUT ./secciones/bibliografia.tex
 INPUT ./secciones/bibliografia.tex
 INPUT ./secciones/bibliografia.tex
 INPUT secciones/bibliografia.tex
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
 INPUT ./secciones/referencias.tex
 INPUT ./secciones/referencias.tex
 INPUT ./secciones/referencias.tex
@@ -590,6 +595,7 @@ INPUT ./main.out
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/txsys.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmb.pfb

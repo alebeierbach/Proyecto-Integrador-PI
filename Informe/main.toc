@@ -38,31 +38,38 @@
 \contentsline {subsubsection}{Filtro de desagüe v2}{15}{figure.caption.24}%
 \contentsline {subsubsection}{Soporte para ventilador}{16}{figure.caption.25}%
 \contentsline {subsubsection}{Soporte para sensor de humedad y temperatura}{17}{figure.caption.26}%
-\contentsline {section}{\numberline {3.3}Selección de componentes}{18}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Sustrato}{18}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Sensores}{18}{subsection.3.3.2}%
-\contentsline {subsubsection}{Sensor de humedad ambiente y temperatura}{18}{subsection.3.3.2}%
-\contentsline {subsubsection}{Sensor de iluminancia}{19}{subsection.3.3.2}%
-\contentsline {subsubsection}{Higrómetro de suelo}{19}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {4}Desarrollo experimental}{20}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Diseño del sistema}{20}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Simulación}{20}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Implementación física}{20}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Mediciones}{20}{section.4.4}%
-\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{22}{part*.28}%
-\contentsline {chapter}{Resultados}{22}{chapter*.29}%
-\contentsline {section}{Resultados principales}{22}{section*.30}%
-\contentsline {chapter}{Conclusiones}{23}{chapter*.32}%
-\contentsline {section}{Resultados obtenidos en relación con la SAT}{23}{section*.33}%
-\contentsline {section}{Conclusión general}{23}{section*.33}%
-\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{23}{section*.33}%
-\contentsline {section}{Limitaciones y trabajos futuros}{23}{section*.33}%
-\contentsline {chapter}{Bibliografía}{24}{chapter*.34}%
-\contentsline {chapter}{Referencias}{25}{chapter*.35}%
-\contentsline {chapter}{\numberline {A}Anexo I}{26}{appendix.Alph1}%
-\contentsline {section}{Anexo I - Título}{26}{section*.36}%
-\contentsline {chapter}{\numberline {B}Anexo II}{27}{appendix.Alph2}%
-\contentsline {section}{Anexo II - Título}{27}{section*.37}%
-\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{28}{appendix.Alph3}%
-\contentsline {section}{Solicitud de Aprobación de Tema}{28}{section*.38}%
-\contentsline {section}{Informes mensuales}{28}{section*.38}%
+\contentsline {section}{\numberline {3.3}Unidad Central de Procesamiento: Raspberry Pi 4}{18}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Selección de componentes}{18}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Sustrato}{18}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Sensores y conversor}{19}{subsection.3.4.2}%
+\contentsline {subsubsection}{Sensor de humedad ambiente y temperatura}{19}{subsection.3.4.2}%
+\contentsline {subsubsection}{Sensor de iluminancia}{19}{subsection.3.4.2}%
+\contentsline {subsubsection}{Higrómetro de suelo}{19}{subsection.3.4.2}%
+\contentsline {subsubsection}{Modulo de conversion Analogico a Digital}{20}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Actuadores}{20}{subsection.3.4.3}%
+\contentsline {subsubsection}{Luces para el cultivo}{20}{subsection.3.4.3}%
+\contentsline {subsubsection}{Bomba para riego}{20}{subsection.3.4.3}%
+\contentsline {subsubsection}{Valvulas solenoides}{21}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Etapa de Potencia: Relés Electromecánicos y de Estado Sólido}{21}{subsection.3.4.4}%
+\contentsline {chapter}{\numberline {4}Desarrollo experimental}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Diseño del sistema}{22}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Simulación}{22}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Implementación física}{22}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Mediciones}{22}{section.4.4}%
+\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{24}{part*.28}%
+\contentsline {chapter}{Resultados}{24}{chapter*.29}%
+\contentsline {section}{Resultados principales}{24}{section*.30}%
+\contentsline {chapter}{Conclusiones}{25}{chapter*.32}%
+\contentsline {section}{Resultados obtenidos en relación con la SAT}{25}{section*.33}%
+\contentsline {section}{Conclusión general}{25}{section*.33}%
+\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{25}{section*.33}%
+\contentsline {section}{Limitaciones y trabajos futuros}{25}{section*.33}%
+\contentsline {chapter}{Bibliografía}{26}{chapter*.34}%
+\contentsline {chapter}{Referencias}{27}{chapter*.35}%
+\contentsline {chapter}{\numberline {A}Anexo I}{28}{appendix.Alph1}%
+\contentsline {section}{Anexo I - Título}{28}{section*.36}%
+\contentsline {chapter}{\numberline {B}Anexo II}{29}{appendix.Alph2}%
+\contentsline {section}{Anexo II - Título}{29}{section*.37}%
+\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{30}{appendix.Alph3}%
+\contentsline {section}{Solicitud de Aprobación de Tema}{30}{section*.38}%
+\contentsline {section}{Informes mensuales}{30}{section*.38}%
