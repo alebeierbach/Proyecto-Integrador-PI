@@ -50,31 +50,33 @@
 \contentsline {subsubsection}{Filtro de desagüe v1}{20}{figure.caption.23}%
 \contentsline {subsubsection}{Filtro de desagüe v2}{20}{figure.caption.24}%
 \contentsline {subsubsection}{Soporte para ventilador}{21}{figure.caption.25}%
-\contentsline {subsubsection}{Soporte para sensor de humedad y temperatura}{22}{figure.caption.26}%
-\contentsline {section}{\numberline {3.5}Codigo}{22}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Telemetría y Visualización en la Nube: Integración con ThingSpeak}{22}{subsection.3.5.1}%
-\contentsline {subsubsection}{Arquitectura de Transmisión de Datos}{22}{subsection.3.5.1}%
-\contentsline {section}{\numberline {3.6}UI: Interfaz de Usuario}{23}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Esquemas de conexion}{23}{section.3.7}%
-\contentsline {chapter}{\numberline {4}Desarrollo experimental}{24}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Diseño del sistema}{24}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Simulación}{24}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Implementación física}{24}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Mediciones}{24}{section.4.4}%
-\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{26}{part*.28}%
-\contentsline {chapter}{Resultados}{26}{chapter*.29}%
-\contentsline {section}{Resultados principales}{26}{section*.30}%
-\contentsline {chapter}{Conclusiones}{27}{chapter*.32}%
-\contentsline {section}{Resultados obtenidos en relación con la SAT}{27}{section*.33}%
-\contentsline {section}{Conclusión general}{27}{section*.33}%
-\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{27}{section*.33}%
-\contentsline {section}{Limitaciones y trabajos futuros}{27}{section*.33}%
-\contentsline {chapter}{Bibliografía}{28}{chapter*.34}%
-\contentsline {chapter}{Referencias}{29}{chapter*.35}%
-\contentsline {chapter}{\numberline {A}Anexo I}{30}{appendix.Alph1}%
-\contentsline {section}{Anexo I - Título}{30}{section*.36}%
-\contentsline {chapter}{\numberline {B}Anexo II}{31}{appendix.Alph2}%
-\contentsline {section}{Anexo II - Título}{31}{section*.37}%
-\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{32}{appendix.Alph3}%
-\contentsline {section}{Solicitud de Aprobación de Tema}{32}{section*.38}%
-\contentsline {section}{Informes mensuales}{32}{section*.38}%
+\contentsline {subsubsection}{Soporte para sensor de humedad y temperatura}{21}{figure.caption.26}%
+\contentsline {subsubsection}{Soporte para sensor de iluminancia}{22}{figure.caption.27}%
+\contentsline {subsubsection}{Covertor de proteccion para higrómetros}{23}{figure.caption.28}%
+\contentsline {section}{\numberline {3.5}Codigo}{24}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Telemetría y Visualización en la Nube: Integración con ThingSpeak}{24}{subsection.3.5.1}%
+\contentsline {subsubsection}{Arquitectura de Transmisión de Datos}{24}{subsection.3.5.1}%
+\contentsline {section}{\numberline {3.6}UI: Interfaz de Usuario}{25}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Esquemas de conexion}{25}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Desarrollo experimental}{26}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Diseño del sistema}{26}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Simulación}{26}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Implementación física}{26}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Mediciones}{26}{section.4.4}%
+\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{28}{part*.31}%
+\contentsline {chapter}{Resultados}{28}{chapter*.32}%
+\contentsline {section}{Resultados principales}{28}{section*.33}%
+\contentsline {chapter}{Conclusiones}{29}{chapter*.35}%
+\contentsline {section}{Resultados obtenidos en relación con la SAT}{29}{section*.36}%
+\contentsline {section}{Conclusión general}{29}{section*.36}%
+\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{29}{section*.36}%
+\contentsline {section}{Limitaciones y trabajos futuros}{29}{section*.36}%
+\contentsline {chapter}{Bibliografía}{30}{chapter*.37}%
+\contentsline {chapter}{Referencias}{31}{chapter*.38}%
+\contentsline {chapter}{\numberline {A}Anexo I}{32}{appendix.Alph1}%
+\contentsline {section}{Anexo I - Título}{32}{section*.39}%
+\contentsline {chapter}{\numberline {B}Anexo II}{33}{appendix.Alph2}%
+\contentsline {section}{Anexo II - Título}{33}{section*.40}%
+\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{34}{appendix.Alph3}%
+\contentsline {section}{Solicitud de Aprobación de Tema}{34}{section*.41}%
+\contentsline {section}{Informes mensuales}{34}{section*.41}%

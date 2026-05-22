@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  20 MAY 2026 11:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  21 MAY 2026 19:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -861,6 +861,16 @@ LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 11.
+
+
+LaTeX Warning: Label `fig:soporte_mangueras' multiply defined.
+
+
+LaTeX Warning: Label `fig:soporte_mangueras' multiply defined.
+
+
+LaTeX Warning: Label `fig:soporte_mangueras' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -1139,74 +1149,74 @@ Cap\'{\i }tulo 2.
 
 ] (./capitulos/03_marco_metodologico.tex
 Cap\'{\i }tulo 3.
-<Imagenes/prototipo.png, id=439, 425.59pt x 555.07375pt>
-File: Imagenes/prototipo.png Graphic file (type png)
-<use Imagenes/prototipo.png>
-Package pdftex.def Info: Imagenes/prototipo.png  used on input line 11.
+<Imagenes/imagen14.png, id=445, 425.59pt x 555.07375pt>
+File: Imagenes/imagen14.png Graphic file (type png)
+<use Imagenes/imagen14.png>
+Package pdftex.def Info: Imagenes/imagen14.png  used on input line 11.
 (pdftex.def)             Requested size: 220.50887pt x 287.59822pt.
 [6
 
- <./Imagenes/prototipo.png>]
-<Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png, id=447, 369.38pt x 531.9875pt>
+ <./Imagenes/imagen14.png>]
+<Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png, id=454, 369.38pt x 531.9875pt>
 File: Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png Graphic file (type png)
 <use Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png>
 Package pdftex.def Info: Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png  used on input line 26.
 (pdftex.def)             Requested size: 211.68661pt x 304.87575pt.
-<Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png, id=448, 344.28625pt x 447.6725pt>
+<Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png, id=455, 344.28625pt x 447.6725pt>
 File: Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png Graphic file (type png)
 <use Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png>
 Package pdftex.def Info: Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png  used on input line 31.
 (pdftex.def)             Requested size: 211.68661pt x 275.25206pt.
-<Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png, id=449, 707.64375pt x 501.875pt>
+<Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png, id=456, 707.64375pt x 501.875pt>
 File: Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png Graphic file (type png)
 <use Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png>
 Package pdftex.def Info: Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png  used on input line 40.
 (pdftex.def)             Requested size: 264.61333pt x 187.6666pt.
  [7 <./Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png> <./Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png>]
-<Imagenes/maceta1.jpeg, id=457, 1284.8pt x 963.6pt>
+<Imagenes/maceta1.jpeg, id=463, 1284.8pt x 963.6pt>
 File: Imagenes/maceta1.jpeg Graphic file (type jpg)
 <use Imagenes/maceta1.jpeg>
 Package pdftex.def Info: Imagenes/maceta1.jpeg  used on input line 48.
 (pdftex.def)             Requested size: 220.50887pt x 165.36838pt.
  [8 <./Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png> <./Imagenes/maceta1.jpeg>]
-<Imagenes/prototipo Image 2026-04-20 at 11.35.53 (2).jpeg, id=463, 722.7pt x 1284.8pt>
-File: Imagenes/prototipo Image 2026-04-20 at 11.35.53 (2).jpeg Graphic file (type jpg)
-<use Imagenes/prototipo Image 2026-04-20 at 11.35.53 (2).jpeg>
-Package pdftex.def Info: Imagenes/prototipo Image 2026-04-20 at 11.35.53 (2).jpeg  used on input line 61.
+<Imagenes/imagen3.jpeg, id=469, 722.7pt x 1284.8pt>
+File: Imagenes/imagen3.jpeg Graphic file (type jpg)
+<use Imagenes/imagen3.jpeg>
+Package pdftex.def Info: Imagenes/imagen3.jpeg  used on input line 61.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
-<Imagenes/prototipo Image 2026-04-20 at 11.35.54.jpeg, id=464, 963.6pt x 1284.8pt>
-File: Imagenes/prototipo Image 2026-04-20 at 11.35.54.jpeg Graphic file (type jpg)
-<use Imagenes/prototipo Image 2026-04-20 at 11.35.54.jpeg>
-Package pdftex.def Info: Imagenes/prototipo Image 2026-04-20 at 11.35.54.jpeg  used on input line 66.
+<Imagenes/imagen4.jpeg, id=470, 722.7pt x 1284.8pt>
+File: Imagenes/imagen4.jpeg Graphic file (type jpg)
+<use Imagenes/imagen4.jpeg>
+Package pdftex.def Info: Imagenes/imagen4.jpeg  used on input line 66.
+(pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
+<Imagenes/imagen6.jpeg, id=471, 963.6pt x 1284.8pt>
+File: Imagenes/imagen6.jpeg Graphic file (type jpg)
+<use Imagenes/imagen6.jpeg>
+Package pdftex.def Info: Imagenes/imagen6.jpeg  used on input line 78.
 (pdftex.def)             Requested size: 211.68388pt x 282.24518pt.
-<Imagenes/prototipo Image 2026-04-20 at 11.35.54 (1).jpeg, id=465, 963.6pt x 1284.8pt>
-File: Imagenes/prototipo Image 2026-04-20 at 11.35.54 (1).jpeg Graphic file (type jpg)
-<use Imagenes/prototipo Image 2026-04-20 at 11.35.54 (1).jpeg>
-Package pdftex.def Info: Imagenes/prototipo Image 2026-04-20 at 11.35.54 (1).jpeg  used on input line 78.
-(pdftex.def)             Requested size: 211.68388pt x 282.24518pt.
-<Imagenes/prototipo Image 2026-04-20 at 11.35.54 (2).jpeg, id=466, 722.7pt x 1284.8pt>
-File: Imagenes/prototipo Image 2026-04-20 at 11.35.54 (2).jpeg Graphic file (type jpg)
-<use Imagenes/prototipo Image 2026-04-20 at 11.35.54 (2).jpeg>
-Package pdftex.def Info: Imagenes/prototipo Image 2026-04-20 at 11.35.54 (2).jpeg  used on input line 83.
+<Imagenes/imagen7.jpeg, id=472, 722.7pt x 1284.8pt>
+File: Imagenes/imagen7.jpeg Graphic file (type jpg)
+<use Imagenes/imagen7.jpeg>
+Package pdftex.def Info: Imagenes/imagen7.jpeg  used on input line 83.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
- [9 <./Imagenes/prototipo Image 2026-04-20 at 11.35.53 (2).jpeg> <./Imagenes/prototipo Image 2026-04-20 at 11.35.54.jpeg>]
-<Imagenes/prototipo Image 2026-04-20 at 11.35.52 (1).jpeg, id=471, 722.7pt x 1284.8pt>
-File: Imagenes/prototipo Image 2026-04-20 at 11.35.52 (1).jpeg Graphic file (type jpg)
-<use Imagenes/prototipo Image 2026-04-20 at 11.35.52 (1).jpeg>
-Package pdftex.def Info: Imagenes/prototipo Image 2026-04-20 at 11.35.52 (1).jpeg  used on input line 94.
+ [9 <./Imagenes/imagen3.jpeg> <./Imagenes/imagen4.jpeg>]
+<Imagenes/imagen16.jpeg, id=477, 722.7pt x 1284.8pt>
+File: Imagenes/imagen16.jpeg Graphic file (type jpg)
+<use Imagenes/imagen16.jpeg>
+Package pdftex.def Info: Imagenes/imagen16.jpeg  used on input line 94.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
-<Imagenes/prototipo Image 2026-04-20 at 11.35.52 (2).jpeg, id=472, 722.7pt x 1284.8pt>
-File: Imagenes/prototipo Image 2026-04-20 at 11.35.52 (2).jpeg Graphic file (type jpg)
-<use Imagenes/prototipo Image 2026-04-20 at 11.35.52 (2).jpeg>
-Package pdftex.def Info: Imagenes/prototipo Image 2026-04-20 at 11.35.52 (2).jpeg  used on input line 99.
+<Imagenes/imagen17.jpeg, id=478, 722.7pt x 1284.8pt>
+File: Imagenes/imagen17.jpeg Graphic file (type jpg)
+<use Imagenes/imagen17.jpeg>
+Package pdftex.def Info: Imagenes/imagen17.jpeg  used on input line 99.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
- [10 <./Imagenes/prototipo Image 2026-04-20 at 11.35.54 (1).jpeg> <./Imagenes/prototipo Image 2026-04-20 at 11.35.54 (2).jpeg>]
-<Imagenes/desague1.jpeg, id=477, 903.375pt x 1606.0pt>
+ [10 <./Imagenes/imagen6.jpeg> <./Imagenes/imagen7.jpeg>]
+<Imagenes/desague1.jpeg, id=483, 903.375pt x 1606.0pt>
 File: Imagenes/desague1.jpeg Graphic file (type jpg)
 <use Imagenes/desague1.jpeg>
 Package pdftex.def Info: Imagenes/desague1.jpeg  used on input line 110.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
- [11 <./Imagenes/prototipo Image 2026-04-20 at 11.35.52 (1).jpeg> <./Imagenes/prototipo Image 2026-04-20 at 11.35.52 (2).jpeg>]
+ [11 <./Imagenes/imagen16.jpeg> <./Imagenes/imagen17.jpeg>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 115.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -1227,102 +1237,130 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 176.
-<Imagenes/imagen16.png, id=505, 445.665pt x 424.58624pt>
+<Imagenes/imagen16.png, id=511, 445.665pt x 424.58624pt>
 File: Imagenes/imagen16.png Graphic file (type png)
 <use Imagenes/imagen16.png>
 Package pdftex.def Info: Imagenes/imagen16.png  used on input line 186.
 (pdftex.def)             Requested size: 136.71306pt x 130.24689pt.
-<Imagenes/imagen17.png, id=506, 375.4025pt x 524.96124pt>
+<Imagenes/imagen17.png, id=512, 375.4025pt x 524.96124pt>
 File: Imagenes/imagen17.png Graphic file (type png)
 <use Imagenes/imagen17.png>
 Package pdftex.def Info: Imagenes/imagen17.png  used on input line 192.
 (pdftex.def)             Requested size: 136.71431pt x 191.18071pt.
-<Imagenes/imagen18.png, id=507, 456.70625pt x 572.1375pt>
+<Imagenes/imagen18.png, id=513, 456.70625pt x 572.1375pt>
 File: Imagenes/imagen18.png Graphic file (type png)
 <use Imagenes/imagen18.png>
 Package pdftex.def Info: Imagenes/imagen18.png  used on input line 198.
 (pdftex.def)             Requested size: 136.71327pt x 171.26717pt.
  [17{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
-<Imagenes/imagen3.png, id=513, 722.7pt x 1284.8pt>
+<Imagenes/imagen3.png, id=519, 722.7pt x 1284.8pt>
 File: Imagenes/imagen3.png Graphic file (type png)
 <use Imagenes/imagen3.png>
 Package pdftex.def Info: Imagenes/imagen3.png  used on input line 212.
 (pdftex.def)             Requested size: 136.7079pt x 243.03629pt.
-<Imagenes/imagen9.png, id=514, 722.7pt x 1284.8pt>
+<Imagenes/imagen9.png, id=520, 722.7pt x 1284.8pt>
 File: Imagenes/imagen9.png Graphic file (type png)
 <use Imagenes/imagen9.png>
 Package pdftex.def Info: Imagenes/imagen9.png  used on input line 218.
 (pdftex.def)             Requested size: 136.7079pt x 243.03629pt.
-<Imagenes/imagen10.png, id=515, 722.7pt x 1284.8pt>
+<Imagenes/imagen10.png, id=521, 722.7pt x 1284.8pt>
 File: Imagenes/imagen10.png Graphic file (type png)
 <use Imagenes/imagen10.png>
 Package pdftex.def Info: Imagenes/imagen10.png  used on input line 224.
 (pdftex.def)             Requested size: 136.7079pt x 243.03629pt.
-<Imagenes/imagen1.png, id=516, 208.78pt x 435.6275pt>
+<Imagenes/imagen1.png, id=522, 208.78pt x 435.6275pt>
 File: Imagenes/imagen1.png Graphic file (type png)
 <use Imagenes/imagen1.png>
 Package pdftex.def Info: Imagenes/imagen1.png  used on input line 238.
 (pdftex.def)             Requested size: 136.36163pt x 284.52382pt.
-<Imagenes/imagen8.png, id=517, 705.63625pt x 1606.0pt>
+<Imagenes/imagen8.png, id=523, 705.63625pt x 1606.0pt>
 File: Imagenes/imagen8.png Graphic file (type png)
 <use Imagenes/imagen8.png>
 Package pdftex.def Info: Imagenes/imagen8.png  used on input line 243.
 (pdftex.def)             Requested size: 125.00635pt x 284.50949pt.
  [18 <./Imagenes/imagen16.png> <./Imagenes/imagen17.png> <./Imagenes/imagen18.png> <./Imagenes/imagen3.png> <./Imagenes/imagen9.png> <./Imagenes/imagen10.png>]
-<Imagenes/imagen15.png, id=526, 253.94875pt x 282.05376pt>
+<Imagenes/imagen15.png, id=532, 253.94875pt x 282.05376pt>
 File: Imagenes/imagen15.png Graphic file (type png)
 <use Imagenes/imagen15.png>
 Package pdftex.def Info: Imagenes/imagen15.png  used on input line 254.
 (pdftex.def)             Requested size: 211.69188pt x 235.12024pt.
-<Imagenes/prototipo Image 2026-04-20 at 11.35.52.jpeg, id=527, 722.7pt x 1284.8pt>
-File: Imagenes/prototipo Image 2026-04-20 at 11.35.52.jpeg Graphic file (type jpg)
-<use Imagenes/prototipo Image 2026-04-20 at 11.35.52.jpeg>
-Package pdftex.def Info: Imagenes/prototipo Image 2026-04-20 at 11.35.52.jpeg  used on input line 259.
+<Imagenes/imagen1.jpeg, id=533, 722.7pt x 1284.8pt>
+File: Imagenes/imagen1.jpeg Graphic file (type jpg)
+<use Imagenes/imagen1.jpeg>
+Package pdftex.def Info: Imagenes/imagen1.jpeg  used on input line 259.
 (pdftex.def)             Requested size: 160.0421pt x 284.5193pt.
-<Imagenes/imagen2.png, id=528, 297.11pt x 228.855pt>
+<Imagenes/imagen2.png, id=534, 297.11pt x 228.855pt>
 File: Imagenes/imagen2.png Graphic file (type png)
 <use Imagenes/imagen2.png>
 Package pdftex.def Info: Imagenes/imagen2.png  used on input line 270.
 (pdftex.def)             Requested size: 211.6976pt x 163.06436pt.
-<Imagenes/imagen7.png, id=529, 292.09125pt x 237.88875pt>
+<Imagenes/imagen7.png, id=535, 292.09125pt x 237.88875pt>
 File: Imagenes/imagen7.png Graphic file (type png)
 <use Imagenes/imagen7.png>
 Package pdftex.def Info: Imagenes/imagen7.png  used on input line 275.
 (pdftex.def)             Requested size: 211.69164pt x 172.40865pt.
- [19 <./Imagenes/imagen1.png> <./Imagenes/imagen8.png> <./Imagenes/imagen15.png> <./Imagenes/prototipo Image 2026-04-20 at 11.35.52.jpeg>]
-<Imagenes/imagen11.png, id=536, 457.71pt x 434.62375pt>
+ [19 <./Imagenes/imagen1.png> <./Imagenes/imagen8.png> <./Imagenes/imagen15.png> <./Imagenes/imagen1.jpeg>]
+<Imagenes/imagen11.png, id=542, 457.71pt x 434.62375pt>
 File: Imagenes/imagen11.png Graphic file (type png)
 <use Imagenes/imagen11.png>
 Package pdftex.def Info: Imagenes/imagen11.png  used on input line 288.
 (pdftex.def)             Requested size: 136.71342pt x 129.81778pt.
-<Imagenes/imagen13.png, id=537, 903.375pt x 1606.0pt>
+<Imagenes/imagen13.png, id=543, 903.375pt x 1606.0pt>
 File: Imagenes/imagen13.png Graphic file (type png)
 <use Imagenes/imagen13.png>
 Package pdftex.def Info: Imagenes/imagen13.png  used on input line 294.
 (pdftex.def)             Requested size: 136.71342pt x 243.0461pt.
-File: Imagenes/prototipo Image 2026-04-20 at 11.35.52 (2).jpeg Graphic file (type jpg)
-<use Imagenes/prototipo Image 2026-04-20 at 11.35.52 (2).jpeg>
-Package pdftex.def Info: Imagenes/prototipo Image 2026-04-20 at 11.35.52 (2).jpeg  used on input line 300.
+File: Imagenes/imagen17.jpeg Graphic file (type jpg)
+<use Imagenes/imagen17.jpeg>
+Package pdftex.def Info: Imagenes/imagen17.jpeg  used on input line 300.
 (pdftex.def)             Requested size: 136.7079pt x 243.03629pt.
  [20 <./Imagenes/imagen2.png> <./Imagenes/imagen7.png> <./Imagenes/imagen11.png> <./Imagenes/imagen13.png>]
-File: Imagenes/imagen1.png Graphic file (type png)
-<use Imagenes/imagen1.png>
-Package pdftex.def Info: Imagenes/imagen1.png  used on input line 313.
-(pdftex.def)             Requested size: 211.68661pt x 441.7152pt.
-File: Imagenes/imagen8.png Graphic file (type png)
-<use Imagenes/imagen8.png>
-Package pdftex.def Info: Imagenes/imagen8.png  used on input line 318.
-(pdftex.def)             Requested size: 211.68661pt x 481.77922pt.
- [21] [22]) (./capitulos/04_desarrollo.tex [23]
+<Imagenes/soporteventilador2.jpeg, id=551, 903.375pt x 1606.0pt>
+File: Imagenes/soporteventilador2.jpeg Graphic file (type jpg)
+<use Imagenes/soporteventilador2.jpeg>
+Package pdftex.def Info: Imagenes/soporteventilador2.jpeg  used on input line 313.
+(pdftex.def)             Requested size: 211.68661pt x 376.33182pt.
+<Imagenes/soporteventilador1.png, id=552, 294.09875pt x 367.3725pt>
+File: Imagenes/soporteventilador1.png Graphic file (type png)
+<use Imagenes/soporteventilador1.png>
+Package pdftex.def Info: Imagenes/soporteventilador1.png  used on input line 318.
+(pdftex.def)             Requested size: 211.68661pt x 264.4295pt.
+<Imagenes/soportedht1.jpeg, id=553, 1552.80125pt x 1606.0pt>
+File: Imagenes/soportedht1.jpeg Graphic file (type jpg)
+<use Imagenes/soportedht1.jpeg>
+Package pdftex.def Info: Imagenes/soportedht1.jpeg  used on input line 332.
+(pdftex.def)             Requested size: 211.68661pt x 218.93263pt.
+ [21 <./Imagenes/soporteventilador2.jpeg> <./Imagenes/soporteventilador1.png>]
+<Imagenes/soportebh17501.png, id=559, 265.99374pt x 349.305pt>
+File: Imagenes/soportebh17501.png Graphic file (type png)
+<use Imagenes/soportebh17501.png>
+Package pdftex.def Info: Imagenes/soportebh17501.png  used on input line 345.
+(pdftex.def)             Requested size: 211.68661pt x 277.99461pt.
+File: Imagenes/soporteventilador1.png Graphic file (type png)
+<use Imagenes/soporteventilador1.png>
+Package pdftex.def Info: Imagenes/soporteventilador1.png  used on input line 350.
+(pdftex.def)             Requested size: 211.68661pt x 264.4295pt.
+ [22 <./Imagenes/soportedht1.jpeg>]
+<Imagenes/soportehigrometro1.jpeg, id=564, 1204.5pt x 1606.0pt>
+File: Imagenes/soportehigrometro1.jpeg Graphic file (type jpg)
+<use Imagenes/soportehigrometro1.jpeg>
+Package pdftex.def Info: Imagenes/soportehigrometro1.jpeg  used on input line 361.
+(pdftex.def)             Requested size: 211.68661pt x 282.23048pt.
+<Imagenes/soportehigrometro2.jpeg, id=565, 1204.5pt x 1606.0pt>
+File: Imagenes/soportehigrometro2.jpeg Graphic file (type jpg)
+<use Imagenes/soportehigrometro2.jpeg>
+Package pdftex.def Info: Imagenes/soportehigrometro2.jpeg  used on input line 366.
+(pdftex.def)             Requested size: 211.68661pt x 282.23048pt.
+ [23 <./Imagenes/soportebh17501.png>] [24 <./Imagenes/soportehigrometro1.jpeg> <./Imagenes/soportehigrometro2.jpeg>]) (./capitulos/04_desarrollo.tex [25]
 Cap\'{\i }tulo 4.
 
-LaTeX Warning: Reference `fig:diag_general' on page 24 undefined on input line 12.
+LaTeX Warning: Reference `fig:diag_general' on page 26 undefined on input line 12.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 33.
-) [24
+) [26
 
-] [25
+] [27
 
 
 ] (./secciones/resultados.tex
@@ -1330,20 +1368,20 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 7.
 
-) [26
+) [28
 
 ] (./secciones/conclusiones.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 7.
 
-) [27
+) [29
 
 
-] (./secciones/bibliografia.tex) [28
+] (./secciones/bibliografia.tex) [30
 
 
-] (./secciones/referencias.tex) [29
+] (./secciones/referencias.tex) [31
 
 
 ] (./anexos/anexo_1.tex
@@ -1352,7 +1390,7 @@ Ap\'{e}ndice A.
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 5.
 
-) [30
+) [32
 
 
 ] (./anexos/anexo_2.tex
@@ -1361,7 +1399,7 @@ Ap\'{e}ndice B.
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 5.
 
-) [31
+) [33
 
 
 ] (./anexos/anexo_pi.tex
@@ -1370,7 +1408,7 @@ Ap\'{e}ndice C.
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 5.
 
-) [32
+) [34
 
 
 ] (./main.aux
@@ -1385,22 +1423,25 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EE326CFAD399B47729F922AC62578BF4;11025.
+(rerunfilecheck)             Checksum: 3EBF4235E888EC88E2A1982672AD2952;11025.
  ) 
 Here is how much of TeX's memory you used:
- 24529 strings out of 467525
- 446506 string characters out of 5418982
- 824949 words of memory out of 5000000
- 52912 multiletter control sequences out of 15000+600000
+ 24576 strings out of 467525
+ 446460 string characters out of 5418982
+ 825096 words of memory out of 5000000
+ 52954 multiletter control sequences out of 15000+600000
  684737 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,11n,120p,1373b,1405s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (45 pages, 15216598 bytes).
+Output written on main.pdf (47 pages, 16456720 bytes).
 PDF statistics:
- 676 PDF objects out of 1000 (max. 8388607)
- 564 compressed objects within 6 object streams
- 126 named destinations out of 1000 (max. 500000)
- 635 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 699 PDF objects out of 1000 (max. 8388607)
+ 577 compressed objects within 6 object streams
+ 131 named destinations out of 1000 (max. 500000)
+ 665 words of extra memory for PDF output out of 10000 (max. 10000000)
 
