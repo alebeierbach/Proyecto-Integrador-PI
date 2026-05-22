@@ -394,67 +394,73 @@ INPUT ./capitulos/03_marco_metodologico.tex
 INPUT ./capitulos/03_marco_metodologico.tex
 INPUT ./capitulos/03_marco_metodologico.tex
 INPUT capitulos/03_marco_metodologico.tex
-INPUT ./Imagenes/imagen14.png
-INPUT ./Imagenes/imagen14.png
-INPUT ./Imagenes/imagen14.png
-INPUT ./Imagenes/imagen14.png
-INPUT ./Imagenes/imagen14.png
-INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png
-INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png
-INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png
-INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png
-INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png
-INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png
-INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png
-INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png
-INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png
-INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png
-INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png
-INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png
-INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png
-INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png
-INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png
-INPUT ./Imagenes/maceta1.jpeg
-INPUT ./Imagenes/maceta1.jpeg
-INPUT ./Imagenes/maceta1.jpeg
-INPUT ./Imagenes/maceta1.jpeg
-INPUT ./Imagenes/maceta1.jpeg
-INPUT ./Imagenes/imagen3.jpeg
-INPUT ./Imagenes/imagen3.jpeg
-INPUT ./Imagenes/imagen3.jpeg
-INPUT ./Imagenes/imagen3.jpeg
-INPUT ./Imagenes/imagen3.jpeg
-INPUT ./Imagenes/imagen4.jpeg
-INPUT ./Imagenes/imagen4.jpeg
-INPUT ./Imagenes/imagen4.jpeg
-INPUT ./Imagenes/imagen4.jpeg
-INPUT ./Imagenes/imagen4.jpeg
-INPUT ./Imagenes/imagen6.jpeg
-INPUT ./Imagenes/imagen6.jpeg
-INPUT ./Imagenes/imagen6.jpeg
-INPUT ./Imagenes/imagen6.jpeg
-INPUT ./Imagenes/imagen6.jpeg
-INPUT ./Imagenes/imagen7.jpeg
-INPUT ./Imagenes/imagen7.jpeg
-INPUT ./Imagenes/imagen7.jpeg
-INPUT ./Imagenes/imagen7.jpeg
-INPUT ./Imagenes/imagen7.jpeg
-INPUT ./Imagenes/imagen16.jpeg
-INPUT ./Imagenes/imagen16.jpeg
-INPUT ./Imagenes/imagen16.jpeg
-INPUT ./Imagenes/imagen16.jpeg
-INPUT ./Imagenes/imagen16.jpeg
-INPUT ./Imagenes/imagen17.jpeg
-INPUT ./Imagenes/imagen17.jpeg
-INPUT ./Imagenes/imagen17.jpeg
-INPUT ./Imagenes/imagen17.jpeg
-INPUT ./Imagenes/imagen17.jpeg
-INPUT ./Imagenes/desague1.jpeg
-INPUT ./Imagenes/desague1.jpeg
-INPUT ./Imagenes/desague1.jpeg
-INPUT ./Imagenes/desague1.jpeg
-INPUT ./Imagenes/desague1.jpeg
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
+INPUT ./capitulos/04_desarrollo.tex
+INPUT ./capitulos/04_desarrollo.tex
+INPUT ./capitulos/04_desarrollo.tex
+INPUT ./capitulos/04_desarrollo.tex
+INPUT capitulos/04_desarrollo.tex
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
+INPUT ./Imagenes/imagen14.png
+INPUT ./Imagenes/imagen14.png
+INPUT ./Imagenes/imagen14.png
+INPUT ./Imagenes/imagen14.png
+INPUT ./Imagenes/imagen14.png
+INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png
+INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png
+INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png
+INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png
+INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.18 AM.png
+INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png
+INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png
+INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png
+INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png
+INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.25 AM.png
+INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png
+INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png
+INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png
+INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png
+INPUT ./Imagenes/prototipo 2026-04-20 at 11.49.04 AM.png
+INPUT ./Imagenes/maceta1.jpeg
+INPUT ./Imagenes/maceta1.jpeg
+INPUT ./Imagenes/maceta1.jpeg
+INPUT ./Imagenes/maceta1.jpeg
+INPUT ./Imagenes/maceta1.jpeg
+INPUT ./Imagenes/imagen3.jpeg
+INPUT ./Imagenes/imagen3.jpeg
+INPUT ./Imagenes/imagen3.jpeg
+INPUT ./Imagenes/imagen3.jpeg
+INPUT ./Imagenes/imagen3.jpeg
+INPUT ./Imagenes/imagen4.jpeg
+INPUT ./Imagenes/imagen4.jpeg
+INPUT ./Imagenes/imagen4.jpeg
+INPUT ./Imagenes/imagen4.jpeg
+INPUT ./Imagenes/imagen4.jpeg
+INPUT ./Imagenes/imagen6.jpeg
+INPUT ./Imagenes/imagen6.jpeg
+INPUT ./Imagenes/imagen6.jpeg
+INPUT ./Imagenes/imagen6.jpeg
+INPUT ./Imagenes/imagen6.jpeg
+INPUT ./Imagenes/imagen7.jpeg
+INPUT ./Imagenes/imagen7.jpeg
+INPUT ./Imagenes/imagen7.jpeg
+INPUT ./Imagenes/imagen7.jpeg
+INPUT ./Imagenes/imagen7.jpeg
+INPUT ./Imagenes/imagen16.jpeg
+INPUT ./Imagenes/imagen16.jpeg
+INPUT ./Imagenes/imagen16.jpeg
+INPUT ./Imagenes/imagen16.jpeg
+INPUT ./Imagenes/imagen16.jpeg
+INPUT ./Imagenes/imagen17.jpeg
+INPUT ./Imagenes/imagen17.jpeg
+INPUT ./Imagenes/imagen17.jpeg
+INPUT ./Imagenes/imagen17.jpeg
+INPUT ./Imagenes/imagen17.jpeg
+INPUT ./Imagenes/desague1.jpeg
+INPUT ./Imagenes/desague1.jpeg
+INPUT ./Imagenes/desague1.jpeg
+INPUT ./Imagenes/desague1.jpeg
+INPUT ./Imagenes/desague1.jpeg
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/t1ntxtt.fd
@@ -574,12 +580,6 @@ INPUT ./Imagenes/soportehigrometro2.jpeg
 INPUT ./Imagenes/soportehigrometro2.jpeg
 INPUT ./Imagenes/soportehigrometro2.jpeg
 INPUT ./Imagenes/soportehigrometro2.jpeg
-INPUT ./capitulos/04_desarrollo.tex
-INPUT ./capitulos/04_desarrollo.tex
-INPUT ./capitulos/04_desarrollo.tex
-INPUT ./capitulos/04_desarrollo.tex
-INPUT capitulos/04_desarrollo.tex
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
 INPUT ./secciones/resultados.tex
 INPUT ./secciones/resultados.tex
 INPUT ./secciones/resultados.tex

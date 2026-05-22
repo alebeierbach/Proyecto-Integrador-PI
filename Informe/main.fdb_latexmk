@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1779404211.21467 "/Users/alebeierbach/Documents/GitHub/Proyecto-Integrador-PI/Informe/main.tex" "main.pdf" "main" 1779404214.4716 0
+["pdflatex"] 1779457665.03328 "/Users/alebeierbach/Documents/GitHub/Proyecto-Integrador-PI/Informe/main.tex" "main.pdf" "main" 1779457668.40228 0
   "/Users/alebeierbach/Documents/GitHub/Proyecto-Integrador-PI/Informe/main.tex" 1779206696.28951 1613 c5e8ac2524f325cae5a700be82ba0e76 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc" 1698694482 3136 bbe665bd0bb471a2da1e8fd326cff9fa ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1698694482 2914 fdbc4a54b9bc76f4551b5303f2737d33 ""
@@ -204,14 +204,14 @@
   "anexos/anexo_pi.tex" 1779202690.91649 477 fab2c62ada54433b8d9e2ab0f748ee40 ""
   "capitulos/01_introduccion.tex" 1779202690.9241 1420 734a9b1bac07a958e0632ab4237158cb ""
   "capitulos/02_marco_teorico.tex" 1779202690.92461 745 f0230a9724fae739dbd03d99add1d1ce ""
-  "capitulos/03_marco_metodologico.tex" 1779402902.86776 41774 2848819323f33ed444ff2842d37614be ""
-  "capitulos/04_desarrollo.tex" 1779203106.11627 922 457c83a00fdb3963caa6bb882246d21b ""
-  "main.aux" 1779404214.35303 14964 f8fba4df16d92ddaeabc1f2baa3e424a "pdflatex"
-  "main.lof" 1779404214.35573 2090 e78c37772455a6c04a5d912ee677304a "pdflatex"
-  "main.lot" 1779404214.3557 398 ccc8e84feefd84b70bb8ae6f37a51106 "pdflatex"
-  "main.out" 1779404214.35539 11025 3ebf4235e888ec88e2a1982672ad2952 "pdflatex"
+  "capitulos/03_marco_metodologico.tex" 1779457661.39111 9087 f10aa264d4a14e57b30de7526fa8a4fc ""
+  "capitulos/04_desarrollo.tex" 1779452077.68541 42585 745a53bd333d25be391a8fca493ce302 ""
+  "main.aux" 1779457668.28292 16906 5ff863b5521786c226723bef7b4c2b5c "pdflatex"
+  "main.lof" 1779457668.2858 2095 4fdea429f5eaf960e153dc551537cadd "pdflatex"
+  "main.lot" 1779457668.28578 397 2a54694a39a47b4aa277d93f3c42395a "pdflatex"
+  "main.out" 1779457668.28545 14607 0f5d775fbbf855996482fa848e37cfd5 "pdflatex"
   "main.tex" 1779206696.28951 1613 c5e8ac2524f325cae5a700be82ba0e76 ""
-  "main.toc" 1779404214.35563 6550 820083d20555b0bdc7e53ce01c5662ce "pdflatex"
+  "main.toc" 1779457668.28572 7954 d2b8e53a673bdaeffbe74420daac05da "pdflatex"
   "paginas/abstract.tex" 1779202690.9919 638 0b1eb7f350e2032738182982fd49f7be ""
   "paginas/agradecimientos.tex" 1779202690.99229 76 679d4a893fa5c8648ce855450931ca0d ""
   "paginas/dedicatoria.tex" 1779202690.9927 68 2428843a3164994834f432f72b828f83 ""
