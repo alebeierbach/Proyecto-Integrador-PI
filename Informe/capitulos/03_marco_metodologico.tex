@@ -1,7 +1,4 @@
 \chapter{Marco metodológico}
-
-Un párrafo con la descripción del contenido, lo que espera encontrar el lector.
-
 En este capítulo se detalla el marco metodológico y el plan de ejecución estratégica seguidos para el diseño, construcción y validación del prototipo de cultivo automatizado. El desarrollo del sistema se orientó bajo pilares fundamentales como el crecimiento óptimo de las especies vegetales, la eficiencia energética, la gestión sustentable del recurso hídrico y una arquitectura modular escalable que permita la futura expansión del proyecto hacia granjas inteligentes en entornos urbanos. Asimismo, la consecución de estos objetivos tecnológicos se planificó considerando criterios de viabilidad técnica y optimización de recursos, adaptando las soluciones de hardware y software a las restricciones presupuestarias y cronológicas propias del proyecto.
 
 \section{Tipo y Enfoque de la Investigación}
@@ -12,7 +9,7 @@ Desde la perspectiva de su alcance, el estudio presenta un carácter descriptivo
 \subsection{Enfoque Cuantitativo}
 El abordaje metodológico del proyecto se rige por un enfoque estrictamente cuantitativo. El sistema de control diseñado (basado en la SBC Raspberry Pi 4) fundamenta su toma de decisiones de manera exclusiva sobre la recolección, procesamiento y análisis de datos numéricos. 
 
-La instrumentación electrónica implementada —tales como la medición de luxes mediante el protocolo I2C o la conversión analógico-digital de la permitividad dieléctrica del sustrato— transforma fenómenos físicos continuos en magnitudes discretas cuantificables. Este paradigma numérico es el que permite establecer umbrales lógicos de actuación para los algoritmos de control local. Asimismo, el enfoque cuantitativo se extiende a la capa de telemetría del proyecto, donde las series temporales de datos son enviadas a la plataforma IoT para su almacenamiento, graficación y evaluación estadística, permitiendo auditar empíricamente el desempeño del prototipo a lo largo del tiempo.
+La instrumentación electrónica implementada, tales como la medición de luxes mediante el protocolo I2C o la conversión analógico-digital de la permitividad dieléctrica del sustrato, transforma fenómenos físicos continuos en magnitudes discretas cuantificables. Este paradigma numérico es el que permite establecer umbrales lógicos de actuación para los algoritmos de control local. Asimismo, el enfoque cuantitativo se extiende a la capa de telemetría del proyecto, donde las series temporales de datos son enviadas a la plataforma IoT para su almacenamiento, graficación y evaluación estadística, permitiendo auditar empíricamente el desempeño del prototipo a lo largo del tiempo.
 
 \subsection{Diseño Experimental y Metodología Iterativa}
 En cuanto al diseño de la investigación, el trabajo clasifica como experimental de tipo proyectivo. No se limitó a la observación pasiva de un fenómeno, sino que requirió la concepción, dimensionamiento y construcción física de un objeto de estudio original: el prototipo de cultivo vertical modular. Se manipularon intencionalmente variables independientes (ciclos de encendido lumínico, tiempos de inyección hídrica) para analizar sus efectos sobre las variables dependientes (estabilidad del entorno radicular y crecimiento vegetal).
@@ -22,46 +19,83 @@ Cabe destacar que el desarrollo metodológico adoptó un modelo de ingeniería c
 Esta capacidad de retroalimentación y ajuste metodológico permitió converger hacia una arquitectura final robusta, sentando bases procedimentales replicables para futuras investigaciones en el marco de las ciudades inteligentes (\textit{Smart Cities}).
 
 \section{Fases de Desarrollo del Proyecto}
-% Qué poner aquí: 
-% El "paso a paso" de cómo planificaron el trabajo a lo largo de los meses.
+El desarrollo de este proyecto se dividio en varias fases:
 \subsection{Fase 1: Investigacion y Definición de Requisitos}
 La etapa inicial del proyecto consistió en llevar a cabo una investigación exhaustiva sobre las necesidades específicas de los cultivos vegetales. El propósito central de este estudio fue traducir dichos requerimientos biológicos en parámetros técnicos concretos, estableciendo así las bases operativas indispensables para definir las especificaciones de los sensores y actuadores del sistema.
-% Explicar cómo investigaron qué necesitaban las plantas (luz, humedad, espacio) 
-% para definir las metas del sistema.
+
 \subsection{Fase 2: Diseño Estructural, Hardware y Software}
 Con los parámetros técnicos definidos en la etapa previa, se inició la fase de desarrollo adoptando una metodología iterativa. El primer paso consistió en la construcción de un prototipo experimental preliminar de arquitectura simplificada. Este modelo inicial tuvo como propósito fundamental validar empíricamente la viabilidad de la instrumentación electrónica seleccionada y evaluar la correcta interacción física entre los componentes, el sustrato y las condiciones de humedad del entorno.
 
 Para llevar a cabo estas validaciones prácticas, se programó una primera versión del software orientada a la operación fundamental del sistema. Estas rutinas lógicas tempranas permitieron a la unidad central ejecutar tareas esenciales de adquisición de datos, almacenamiento local de las lecturas analógicas y la activación de lazos de control elementales para la iluminación y el riego. El análisis de la información recolectada durante esta instancia facilitó la identificación de vulnerabilidades en el hardware, habilitando la aplicación de medidas correctivas tempranas antes de escalar la envergadura del proyecto.
 
 Tras comprobar la estabilidad operativa y la eficacia del modelo de prueba, el proceso metodológico avanzó hacia la concepción del diseño estructural definitivo. En esta instancia se proyectó una arquitectura mecánica modular de disposición vertical, calculada estrictamente para cumplir con las dimensiones volumétricas y la capacidad de carga exigidas por el alcance del trabajo. El ensamblaje final integró las soluciones consolidadas durante la fase de pruebas, incorporando el sistema de estanqueidad, la red de drenaje y los alojamientos manufacturados mediante impresión tridimensional, garantizando un entorno robusto y adecuado para el sostenimiento del ecosistema vegetal a largo plazo.
-% El criterio de usar un enfoque de "diseño iterativo" (por eso hicieron un 
-% prototipo inicial de prueba y luego un prototipo final modular y apilable).
+
 \subsection{Fase 3: Mejoras de diseño, diseño 3D y optimizacion del codigo}
-% Explicar el método de programación: desarrollo del lazo de control local primero, 
-% y luego la integración de la telemetría en la nube.
+En esta etapa del desarrollo se implementaron diversas optimizaciones técnicas orientadas a perfeccionar la funcionalidad global del prototipo. Con respecto al hardware mecánico, se diseñaron y fabricaron mejoras en las piezas desarrolladas mediante manufactura aditiva, permitiendo resolver problemas críticos observados en las fases previstas. Estas modificaciones se aplicaron principalmente sobre los componentes del sistema de drenaje para asegurar el correcto flujo hídrico y sobre los soportes de los sensores para garantizar la estabilidad de las mediciones.
+
+En el ámbito informático, el software del sistema también atravesó un proceso de revisión y mejora. Se procedió a optimizar la estructura del código con el fin de incrementar la eficiencia en el procesamiento de datos, asegurar la estabilidad del lazo de control y depurar las rutinas lógicas ejecutadas por la unidad central.
+
+Finalmente, se realizaron adaptaciones estructurales significativas en favor de la modularidad del prototipo. Se rediseñó el ensamblaje de las macetas principales, separando la estructura en módulos independientes y removibles entre sí. Esta solución facilitó considerablemente la logística de traslado y reubicación del hardware, demostrando la escalabilidad del sistema y flexibilizando las tareas de mantenimiento de las plantas.
+
 \subsection{Fase 4: Pruebas Experimentales y Validación}
-% Explicar cómo se validó el sistema: primero pruebas en vacío (sin plantas, 
-% testeando filtraciones de agua y sensores) y luego la prueba real con cultivos.
+Al alcanzar esta fase del desarrollo, la arquitectura general del sistema ya operaba bajo condiciones de estabilidad y correcto funcionamiento, habiéndose consolidado la integración mutua entre el conjunto de sensores de medición y los actuadores mecánicos. Con la plataforma tecnológica estabilizada, las actividades se centraron en la ejecución de ajustes finos de calibración orientados a perfeccionar la respuesta dinámica del control.
+
+Estas tareas de sintonización implicaron la modificación precisa de variables cronológicas y operativas en el software. Como ejemplos principales de este proceso, se adecuaron los tiempos de inyección hídrica para ajustar el volumen de agua aportado en cada ciclo de riego y se reprogramaron los intervalos de fotoperíodo para incrementar o disminuir las horas de iluminación artificial. Todas estas acciones correctivas menores se realizaron con el propósito fundamental de adaptar el comportamiento automatizado de la máquina a los requerimientos biológicos específicos detectados en las plantas, maximizando la eficiencia operativa antes del inicio de los ensayos definitivos.% Explicar cómo se validó el sistema: primero pruebas en vacío (sin plantas, 
 
 \section{Criterios Metodológicos de Selección Tecnológica}
-% ¡AQUÍ ES DONDE RECICLAMOS TUS CONCEPTOS! Pero a nivel estratégico.
+Para la selección de la instrumentación electrónica y los elementos de potencia, se estableció un criterio metodológico riguroso basado en el equilibrio entre el costo económico y la funcionalidad operativa. La elección de cada sensor y actuador se supeditó estrictamente al cumplimiento de las especificaciones de diseño requeridas para la construcción del prototipo, priorizando aquellos componentes que garantizaran la precisión necesaria para el cuidado de los cultivos sin sobredimensionar los gastos de implementación.
+
+Debido a las restricciones presupuestarias impuestas al proyecto, este criterio de selección adoptó un enfoque defensivo y analítico. Se realizaron evaluaciones técnicas comparativas para cada variable a medir y controlar, lo que permitió adquirir dispositivos de alta disponibilidad en el mercado y bajo costo que cumplieran eficazmente con los requerimientos solicitados. De este modo, las limitaciones financieras se abordaron como una restricción de diseño obligatoria, logrando consolidar una arquitectura de hardware viable, eficiente y reproducible.
+
 \subsection{Arquitectura de Procesamiento Central}
-% Qué poner aquí (Raspberry Pi): Explicar el CRITERIO. ¿Por qué una SBC y no un 
-% microcontrolador? Mencionar la necesidad de modularidad, múltiples hilos de 
-% procesamiento (multithreading) y la visión a futuro de Smart Cities.
+La selección de la arquitectura para la unidad de procesamiento central constituyó una decisión estratégica orientada a garantizar la modularidad, la robustez informática y la proyección a largo plazo del sistema. En lugar de optar por microcontroladores tradicionales de arquitectura básica y procesamiento lineal, se determinó metodológicamente la necesidad de implementar una computadora de placa única, conocida como computadora de placa única o por sus siglas en inglés SBC. Esta determinación se fundamentó en la previsión de un crecimiento modular del sistema, el cual contempla la adición de múltiples contenedores de cultivo y variables automatizadas sin un límite predefinido, asegurando que la capacidad de cómputo y el procesamiento de datos concurrentes no representen un cuello de botella tecnológico durante la operación.
+
+Desde la perspectiva de los criterios de diseño, las ventajas operativo-tecnológicas de una computadora de placa única frente a los microcontroladores estándar del mercado justifican su elección en base a la concurrencia. Al operar bajo un sistema operativo multitarea completo, el dispositivo permite la ejecución de hilos en paralelo, la gestión nativa de bases de datos para el almacenamiento local de la telemetría y el despliegue de servidores web para interfaces de usuario avanzadas de manera simultánea; tareas que saturarían los recursos de memoria y ciclos de reloj de un microcontrolador clásico. Asimismo, la presencia de conectividad de red avanzada por hardware optimiza la interoperabilidad y la transmisión de datos hacia sistemas remotos.
+
+Se reconoce que, en la etapa actual de desarrollo del prototipo, no se está explotando al máximo la capacidad nominal de procesamiento de este dispositivo. No obstante, este sobredimensionamiento controlado constituye un criterio de diseño defensivo y escalable. La integración futura de algoritmos complejos de optimización hídrica o rutinas de visión computacional para el análisis foliar no requerirá una reestructuración del hardware de control ni modificaciones en la infraestructura física del sistema.
+
+Más allá de los límites físicos del presente prototipo, esta elección de hardware traza el inicio del camino hacia el paradigma de las ciudades inteligentes. La arquitectura de software concebida permite estructurar este desarrollo no como un elemento aislado, sino como un nodo genérico de una red distribuida. Esta visión metodológica facilita la interconexión e interoperabilidad con otras granjas inteligentes y proyectos de investigación complementarios, permitiendo que futuros trabajos puedan tejer una red de monitoreo y producción automatizada a escala urbana, coordinada mediante protocolos robustos de comunicación industrial e Internet de las Cosas.
+
 \subsection{Metodología de Manufactura Aditiva}
-% Qué poner aquí (Impresión 3D): Explicar por qué se eligió diseñar e imprimir 
-% piezas personalizadas (para garantizar estanqueidad, modularidad y reducir 
-% costos frente a piezas comerciales que no se adaptaban al Poliagro). Mencionar 
-% el uso de software CAD y laminadores paramétricos.
-\subsection{Arquitectura de Telemetría (IoT)}
-% Qué poner aquí (ThingSpeak): Explicar el criterio de usar una plataforma 
-% "Cloud" de uso libre para descentralizar la información y permitir el 
-% monitoreo remoto, aislando la visualización del control local de la máquina.
+Durante el transcurso del proyecto, el desarrollo del sistema requirió la integración de múltiples componentes mecánicos y estructurales para garantizar su correcto funcionamiento. Si bien una parte de estos elementos pudo ser adquirida de manera directa en el mercado de suministros comerciales convencionales, tales como los conductos de mangueras, los dispositivos de goteo y los racores estándar, existieron otros componentes que presentaron restricciones geométricas y operativas muy específicas. Para resolver la fijación de la instrumentación y los sistemas de evacuación hídrica, tales como los soportes de los sensores o los mecanismos de filtrado y desagüe a medida, se recurrió a la manufactura aditiva mediante impresión tridimensional, debido a su alta factibilidad técnica y económica.
+
+La adopción de esta tecnología de fabricación digital aportó ventajas metodológicas sustanciales al desarrollo del hardware. Más allá de su bajo costo de producción unitaria, la manufactura aditiva facilitó la implementación de un enfoque de diseño iterativo basado en el prototipado rápido y la validación empírica. Esta metodología permitió someter los modelos a pruebas de campo reales, identificando interferencias mecánicas o deficiencias de estanqueidad de manera inmediata. A partir de los resultados obtenidos en cada ensayo práctico, se procedió a la rápida modificación y optimización de los archivos de diseño original, puliendo la geometría de las piezas hasta alcanzar los estándares de robustez, funcionalidad y precisión exigidos por el prototipo.
 
 \section{Variables e Instrumentos de Medición}
-% Qué poner aquí: 
-% Una lista de qué variables decidiste controlar para que la planta viva y con 
-% qué tipo de tecnología se acordó medirla (ej. "Para la humedad del suelo se 
-% determinó utilizar el método de medición capacitiva en lugar de resistiva para 
-% evitar la degradación por electrólisis").
+Con el propósito de auditar y regular el comportamiento del entorno de cultivo de manera automatizada, se procedió a la cuantificación de las variables físicas más representativas para el desarrollo fisiológico de las plantas, las cuales constituyeron los parámetros de entrada para el control central. Estas variables fueron:
+
+\begin{itemize}
+    \item Humedad del sustrato radicular.
+    \item Humedad relativa del ambiente.
+    \item Temperatura ambiente.
+    \item Intensidad lumínica o iluminancia.
+\end{itemize}
+
+Por otra parte, para las fases de diagnóstico electrónico, calibración de sensores, manufactura estructural y ensamblaje general del prototipo, se requirió de un conjunto diversificado de instrumentos de medición y herramientas técnicas de soporte, clasificadas de acuerdo a su ámbito de aplicación:
+
+Instrumentos de medición y diagnóstico:
+\begin{itemize}
+    \item Multímetro digital para la verificación de señales eléctricas y continuidad.
+    \item Luxómetro para la validación y calibración de los niveles de radiación lumínica.
+    \item Cintas métricas para el dimensionamiento geométrico de la estructura.
+\end{itemize}
+
+Equipos para soldadura e integración electrónica:
+\begin{itemize}
+    \item Soldador de estaño para la fijación de conexiones y cableado de control.
+    \item Pistola de calor para el sellado de aislamientos térmicos y protectores.
+\end{itemize}
+
+Herramientas de manufactura y carpintería:
+\begin{itemize}
+    \item Caladora electrónica para el corte de los paneles de madera.
+    \item Impresora 3D
+    \item Taladros eléctricos para las perforaciones de fijación y vías de drenaje.
+    \item Engrapadora industrial para el tensado y fijación de la lona plástica impermeable.
+\end{itemize}
+
+Herramientas de montaje general:
+\begin{itemize}
+    \item Dispositivos manuales varios, incluyendo destornilladores de diferentes geometrías, pinzas de fuerza y herramientas de corte.
+\end{itemize}
+
