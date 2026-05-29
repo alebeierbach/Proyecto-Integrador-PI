@@ -1,0 +1,2 @@
+En esta instancia se implemento el control de encendido de los focos segun el calculo del DLI acumulado durante el dia, de manera que mediante iteraciones de calculos segun el fotoperiodo de cada planta,
+los luxs otorgados por los focos y los luxs entregados por el ambiente, se cumpla el DLI aprovechando al maximo la luz solar.

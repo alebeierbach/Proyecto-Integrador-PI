@@ -1,0 +1,132 @@
+[global]
+intervalo_lectura_seg = 3600
+raw_seco = 250
+raw_mojado = 60
+discrepancia_humedad_pct = 50
+delay_post_bomba_seg = 2
+archivo_csv = "registro_tesis.csv"
+
+[bomba]
+gpio = 24
+activa_bajo = true
+enabled = true
+
+[thingspeak]
+enabled = true
+api_key = "F0EYLJ4TRFHRHDJ1"
+url = "https://api.thingspeak.com/update"
+
+[thingspeak.fields]
+humedad_suelo_maceta1 = "field1"
+humedad_suelo_maceta2 = "field2"
+lux_maceta1 = "field3"
+lux_maceta2 = "field4"
+temperatura_maceta1 = "field5"
+temperatura_maceta2 = "field6"
+humedad_ambiente_maceta1 = "field7"
+humedad_ambiente_maceta2 = "field8"
+
+[i2c]
+enabled = true
+
+[adc.adc1]
+enabled = true
+tipo = "PCF8591"
+direccion = 0x48
+
+[adc.adc2]
+enabled = false
+tipo = "PCF8591"
+direccion = 0x49
+
+[macetas.maceta1]
+nombre = "maceta1"
+enabled = true
+umbral_humedad_suelo_pct = 70
+umbral_humedad_ambiente_pct = 80
+umbral_temperatura_c = 30
+umbral_lux = 5000
+modo_luz = "sensor"
+hora_inicio_luz = 18
+hora_fin_luz = 6
+tiempo_riego_seg = 20
+
+[macetas.maceta1.humedad_suelo.sensor1]
+enabled = true
+adc = "adc1"
+canal = 2
+
+[macetas.maceta1.humedad_suelo.sensor2]
+enabled = true
+adc = "adc1"
+canal = 3
+
+[macetas.maceta1.bh1750]
+enabled = true
+direccion = 0x23
+
+[macetas.maceta1.dht]
+enabled = true
+tipo = "DHT22"
+gpio = 5
+
+[macetas.maceta1.actuadores.luz]
+enabled = true
+gpio = 26
+activa_bajo = true
+
+[macetas.maceta1.actuadores.valvula]
+enabled = true
+gpio = 22
+activa_bajo = true
+
+[macetas.maceta1.actuadores.ventilador]
+enabled = false
+gpio = 23
+activa_bajo = false
+
+[macetas.maceta2]
+nombre = "maceta2"
+enabled = true
+umbral_humedad_suelo_pct = 80
+umbral_humedad_ambiente_pct = 80
+umbral_temperatura_c = 30
+umbral_lux = 500
+modo_luz = "horario"
+hora_inicio_luz = 18
+hora_fin_luz = 6
+tiempo_riego_seg = 20
+
+[macetas.maceta2.humedad_suelo.sensor1]
+enabled = true
+adc = "adc1"
+canal = 1
+
+[macetas.maceta2.humedad_suelo.sensor2]
+enabled = true
+adc = "adc1"
+canal = 0
+
+[macetas.maceta2.bh1750]
+enabled = false
+direccion = 0x5C
+
+[macetas.maceta2.dht]
+enabled = false
+tipo = "DHT11"
+gpio = 6
+
+[macetas.maceta2.actuadores.luz]
+enabled = true
+gpio = 19
+activa_bajo = true
+
+[macetas.maceta2.actuadores.valvula]
+enabled = false
+gpio = 17
+activa_bajo = true
+
+[macetas.maceta2.actuadores.ventilador]
+enabled = false
+gpio = 25
+activa_bajo = false
