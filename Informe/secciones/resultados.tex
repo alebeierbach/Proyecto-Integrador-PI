@@ -1,24 +1,106 @@
 \chapter*{Resultados}
 \addcontentsline{toc}{chapter}{Resultados}
 
-Aquí se describen los resultados obtenidos luego de todo el proceso, a modo de resumen y haciendo referencia a lo desarrollado anteriormente.
+Aquí se describen los resultados obtenidos luego de todo el proceso, a modo de resumen y haciendo referencia a lo desarrollado anteriormente. Inicialmente se mostrara el crecimineto del cultivo, luego los datos recopilados por los sensores durante la fase de crecimiento y finalmente se hara una breve conclusion de los resultados obtenidos durante esa etapa. Cabe destacar que las imagenes fueron tomadas en momentos donde se considero necesario, viable u optimo considerando el crecimiento vegetal.
 
-\section*{Resultados principales}
-\addcontentsline{toc}{section}{Resultados principales}
+\section{Resultados del prototipo preliminar}
+A continuación, se presentan los resultados derivados de los ensayos con el prototipo inicial de pruebas. Tal como se introdujo en los apartados previos, esta primera aproximación física tuvo como propósito fundamental validar la viabilidad operativa del sistema y comprobar la correcta interacción de sus componentes antes de proceder al diseño definitivo. Por ser una etapa temprana del desarrollo, aun no estaba habilitada la bomba de agua.
 
-Se presenta una síntesis de los resultados más relevantes del trabajo, contrastando teoría, simulación y medición cuando corresponda.
+\subsection{Primera prueba}
+En este apartado se mostraran los resultados obtenidos correspondiente a la primera plantacion del prototipo. Donde primero se vera la evolucion del cultivo y luego se presentaran los graficos de los parametros mas relevantes del sistema.
 
-\begin{table}[H]
+Inicialmente se realizo la plantacion de las primeras semillas de rabanito, a continuacion se mostrara la evidencia fotografica en orden cronologico:
+\begin{figure}[htbp]
     \centering
-    \begin{tabular}{lccc}
-        \toprule
-        Parámetro & Teoría & Simulación & Medición \\
-        \midrule
-        Frecuencia central [MHz] & 12.00 & 11.80 & 11.20 \\
-        Ancho de banda [MHz] & 1.20 & 1.13 & 1.00 \\
-        \bottomrule
-    \end{tabular}
-    \caption{Resumen comparativo de resultados}
-    \label{tab:resultados}
-\end{table}
-\Fuente{Propia.}
+    \includegraphics[width=0.5\linewidth]{Imagenes/Plantaciones/PHOTO-2026-01-28-15-14-25 2.jpg}
+    \caption{Primera plantacion: 28/01/26}
+    \label{fig:placeholder1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg}
+    \end{minipage}
+    \caption{Fecha de la foto: 05/02/26}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg}
+    \end{minipage}
+    \caption{Fecha de la foto: 17/02/26}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg}
+    \caption{Fecha de la foto: 19/02/26}
+    \label{fig:placeholder1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.31\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.31\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.31\textwidth}
+        \centering
+        \includegraphics[height=10cm, width=\textwidth, keepaspectratio]{Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg}
+    \end{minipage}
+    \caption{Fecha de la foto: 23/02/26}
+\end{figure}
+
+En la figura subsiguiente se exhiben los resultados obtenidos tras un período aproximado de un mes de desarrollo. Como se evidencia en las capturas, se produjo una inhibición en el desarrollo completo del hipocótilo del rabanito, fenómeno atribuible a las elevadas temperaturas registradas en el entorno ambiental. Los niveles térmicos cercanos a los 30 grados Celsius actúan como un estresor que desencadena la inducción floral prematura, forzando a la especie vegetal a desviar sus recursos energéticos hacia las estructuras reproductivas en detrimento del engrosamiento de la raíz. Adicionalmente, se determinó que la restricción en el volumen radicular, impuesta por las dimensiones reducidas del contenedor inicial, limitó la expansión del cultivo. Como consecuencia de estos factores ambientales y geométricos, el rendimiento de la cosecha presentó las siguientes características:
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Imagenes/Plantaciones/Cosecha23-022.JPG}
+    \caption{Cosecha: 23/02/26}
+    \label{fig:placeholder1}
+\end{figure}
+
+
+A continuación, se presentan las representaciones gráficas de las series temporales correspondientes a las variables críticas para el desarrollo y sostenimiento del cultivo. Estas ilustraciones permiten analizar el comportamiento dinámico del sistema y evaluar la estabilidad frente a las perturbaciones del entorno.
+
+...graficos y explicacion...
+
+
+\subsection{Segunda prueba}
+Tras concluir el primer ciclo de evaluación y aplicar las acciones correctivas pertinentes sobre las vulnerabilidades identificadas en el sistema, se dio inicio a la segunda etapa de experimentación práctica. Con el propósito de constatar las mejoras funcionales implementadas en el prototipo, se expone a continuación el seguimiento visual que detalla la evolución de las especies vegetales a lo largo de este segundo ensayo:
+
+...fotos de las plantas...
+
+A continuación, se presentan las representaciones gráficas de las series temporales correspondientes a las variables críticas para el desarrollo y sostenimiento del cultivo. Estas ilustraciones permiten analizar el comportamiento dinámico del sistema y evaluar la estabilidad frente a las perturbaciones del entorno.
+
+...graficos y explicacion...
+
+\section{Resultados del prototipo final}
+
+\subsection{Tercera prueba}
+Una vez concluidas las fases preliminares de ensayo y habiendo validado la viabilidad funcional del modelo inicial, el desarrollo avanzó hacia la etapa de experimentación biológica en la infraestructura del prototipo final. Este entorno operativo consolidado presentó capacidades de acondicionamiento ambiental significativamente superiores, al integrar la bomba hidráulica para el riego automatizado, una configuración de doble luminaria por contenedor para optimizar el flujo fotónico, la red de sensores estabilizada y una mezcla de sustrato calculada para potenciar el desarrollo radicular. A continuación, se presenta el registro secuencial que documenta la evolución cronológica de las especies vegetales bajo estas condiciones optimizadas:
+
+...fotos de las plantas...
+
+A continuación, se presentan las representaciones gráficas de las series temporales correspondientes a las variables críticas para el desarrollo y sostenimiento del cultivo. Estas ilustraciones permiten analizar el comportamiento dinámico del sistema y evaluar la estabilidad frente a las perturbaciones del entorno.
+
+...graficos y explicacion...

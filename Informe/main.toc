@@ -78,18 +78,22 @@
 \contentsline {section}{\numberline {4.12}Esquemas de conexion}{33}{section.4.12}%
 \contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{35}{part*.31}%
 \contentsline {chapter}{Resultados}{35}{chapter*.32}%
-\contentsline {section}{Resultados principales}{35}{section*.33}%
-\contentsline {chapter}{Conclusiones}{36}{chapter*.35}%
-\contentsline {section}{Resultados obtenidos en relación con la SAT}{36}{section*.36}%
-\contentsline {section}{Conclusión general}{36}{section*.36}%
-\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{36}{section*.36}%
-\contentsline {section}{Limitaciones y trabajos futuros}{36}{section*.36}%
-\contentsline {chapter}{Bibliografía}{37}{chapter*.37}%
-\contentsline {chapter}{Referencias}{38}{chapter*.38}%
-\contentsline {chapter}{\numberline {A}Anexo I}{39}{appendix.Alph1}%
-\contentsline {section}{Anexo I - Título}{39}{section*.39}%
-\contentsline {chapter}{\numberline {B}Anexo II}{40}{appendix.Alph2}%
-\contentsline {section}{Anexo II - Título}{40}{section*.40}%
-\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{41}{appendix.Alph3}%
-\contentsline {section}{Solicitud de Aprobación de Tema}{41}{section*.41}%
-\contentsline {section}{Informes mensuales}{41}{section*.41}%
+\contentsline {section}{\numberline {4.13}Resultados del prototipo preliminar}{35}{section.4.13}%
+\contentsline {subsection}{\numberline {4.13.1}Primera prueba}{35}{subsection.4.13.1}%
+\contentsline {subsection}{\numberline {4.13.2}Segunda prueba}{40}{subsection.4.13.2}%
+\contentsline {section}{\numberline {4.14}Resultados del prototipo final}{40}{section.4.14}%
+\contentsline {subsection}{\numberline {4.14.1}Tercera prueba}{40}{subsection.4.14.1}%
+\contentsline {chapter}{Conclusiones}{41}{chapter*.39}%
+\contentsline {section}{Resultados obtenidos en relación con la SAT}{41}{section*.40}%
+\contentsline {section}{Conclusión general}{41}{section*.40}%
+\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{41}{section*.40}%
+\contentsline {section}{Limitaciones y trabajos futuros}{41}{section*.40}%
+\contentsline {chapter}{Bibliografía}{42}{chapter*.41}%
+\contentsline {chapter}{Referencias}{44}{chapter*.43}%
+\contentsline {chapter}{\numberline {A}Anexo I}{46}{appendix.Alph1}%
+\contentsline {section}{Anexo I - Título}{46}{section*.45}%
+\contentsline {chapter}{\numberline {B}Anexo II}{47}{appendix.Alph2}%
+\contentsline {section}{Anexo II - Título}{47}{section*.46}%
+\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{48}{appendix.Alph3}%
+\contentsline {section}{Solicitud de Aprobación de Tema}{48}{section*.47}%
+\contentsline {section}{Informes mensuales}{48}{section*.47}%
