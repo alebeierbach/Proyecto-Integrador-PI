@@ -5,8 +5,8 @@
 \contentsline {chapter}{Abstract}{\es@scroman {vii}}{chapter*.4}%
 \contentsline {chapter}{Resumo}{\es@scroman {viii}}{chapter*.5}%
 \contentsline {chapter}{Lista de tablas}{\es@scroman {xii}}{chapter*.7}%
-\contentsline {chapter}{Lista de figuras}{\es@scroman {xiii}}{chapter*.8}%
-\contentsline {chapter}{Lista de símbolos y convenciones}{\es@scroman {xiv}}{chapter*.9}%
+\contentsline {chapter}{Lista de figuras}{\es@scroman {xiv}}{chapter*.8}%
+\contentsline {chapter}{Lista de símbolos y convenciones}{\es@scroman {xv}}{chapter*.9}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Antecedentes breves del problema}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Relevancia del trabajo}{1}{section.1.2}%
@@ -71,29 +71,29 @@
 \contentsline {subsubsection}{Soporte para sensor de humedad y temperatura}{29}{figure.caption.27}%
 \contentsline {subsubsection}{Soporte para sensor de iluminancia}{30}{figure.caption.28}%
 \contentsline {subsubsection}{Covertor de proteccion para higrómetros}{31}{figure.caption.29}%
-\contentsline {section}{\numberline {4.10}Codigo}{32}{section.4.10}%
-\contentsline {subsection}{\numberline {4.10.1}Telemetría y Visualización en la Nube: Integración con ThingSpeak}{32}{subsection.4.10.1}%
-\contentsline {subsubsection}{Arquitectura de Transmisión de Datos}{32}{subsection.4.10.1}%
-\contentsline {section}{\numberline {4.11}UI: Interfaz de Usuario}{33}{section.4.11}%
-\contentsline {section}{\numberline {4.12}Esquemas de conexion}{33}{section.4.12}%
-\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{35}{part*.31}%
-\contentsline {chapter}{Resultados}{35}{chapter*.32}%
-\contentsline {section}{\numberline {4.13}Resultados del prototipo preliminar}{35}{section.4.13}%
-\contentsline {subsection}{\numberline {4.13.1}Primera prueba}{35}{subsection.4.13.1}%
-\contentsline {subsection}{\numberline {4.13.2}Segunda prueba}{40}{subsection.4.13.2}%
-\contentsline {section}{\numberline {4.14}Resultados del prototipo final}{50}{section.4.14}%
-\contentsline {subsection}{\numberline {4.14.1}Tercera prueba}{50}{subsection.4.14.1}%
-\contentsline {chapter}{Conclusiones}{52}{chapter*.50}%
-\contentsline {section}{Resultados obtenidos en relación con la SAT}{52}{section*.51}%
-\contentsline {section}{Conclusión general}{52}{section*.51}%
-\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{52}{section*.51}%
-\contentsline {section}{Limitaciones y trabajos futuros}{52}{section*.51}%
-\contentsline {chapter}{Bibliografía}{53}{chapter*.52}%
-\contentsline {chapter}{Referencias}{55}{chapter*.54}%
-\contentsline {chapter}{\numberline {A}Anexo I}{57}{appendix.Alph1}%
-\contentsline {section}{Anexo I - Título}{57}{section*.56}%
-\contentsline {chapter}{\numberline {B}Anexo II}{58}{appendix.Alph2}%
-\contentsline {section}{Anexo II - Título}{58}{section*.57}%
-\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{59}{appendix.Alph3}%
-\contentsline {section}{Solicitud de Aprobación de Tema}{59}{section*.58}%
-\contentsline {section}{Informes mensuales}{59}{section*.58}%
+\contentsline {section}{\numberline {4.10}Codigo}{33}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Telemetría y Visualización en la Nube: Integración con ThingSpeak}{33}{subsection.4.10.1}%
+\contentsline {subsubsection}{Arquitectura de Transmisión de Datos}{33}{subsection.4.10.1}%
+\contentsline {section}{\numberline {4.11}UI: Interfaz de Usuario}{34}{section.4.11}%
+\contentsline {section}{\numberline {4.12}Esquemas de conexion}{34}{section.4.12}%
+\contentsline {part}{PARTE III - RESULTADOS Y CONCLUSIONES}{36}{part*.32}%
+\contentsline {chapter}{Resultados}{36}{chapter*.33}%
+\contentsline {section}{\numberline {4.13}Resultados del prototipo preliminar}{36}{section.4.13}%
+\contentsline {subsection}{\numberline {4.13.1}Primera prueba}{36}{subsection.4.13.1}%
+\contentsline {subsection}{\numberline {4.13.2}Segunda prueba}{41}{subsection.4.13.2}%
+\contentsline {section}{\numberline {4.14}Resultados del prototipo final}{53}{section.4.14}%
+\contentsline {subsection}{\numberline {4.14.1}Tercera prueba}{53}{subsection.4.14.1}%
+\contentsline {chapter}{Conclusiones}{54}{chapter*.53}%
+\contentsline {section}{Resultados obtenidos en relación con la SAT}{54}{section*.54}%
+\contentsline {section}{Conclusión general}{54}{section*.54}%
+\contentsline {section}{Aporte a la ingeniería o al campo de conocimiento}{54}{section*.54}%
+\contentsline {section}{Limitaciones y trabajos futuros}{54}{section*.54}%
+\contentsline {chapter}{Bibliografía}{55}{chapter*.55}%
+\contentsline {chapter}{Referencias}{57}{chapter*.57}%
+\contentsline {chapter}{\numberline {A}Anexo I}{59}{appendix.Alph1}%
+\contentsline {section}{Anexo I - Título}{59}{section*.59}%
+\contentsline {chapter}{\numberline {B}Anexo II}{60}{appendix.Alph2}%
+\contentsline {section}{Anexo II - Título}{60}{section*.60}%
+\contentsline {chapter}{\numberline {C}Anexo del Proyecto Integrador}{61}{appendix.Alph3}%
+\contentsline {section}{Solicitud de Aprobación de Tema}{61}{section*.61}%
+\contentsline {section}{Informes mensuales}{61}{section*.61}%
