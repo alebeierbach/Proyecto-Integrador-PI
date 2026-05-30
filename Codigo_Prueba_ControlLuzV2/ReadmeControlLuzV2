@@ -1,0 +1,2 @@
+En el caso anterior no se tuvo en cuenta para el control de luz que el factor de luminaria del sol para la conversion de ppfd a Lux es inferior a la de los focos utilizados y se uso el mismo factor.
+En esta version se implementa este factor de luminaria (0.0185) para así obtener correctamente el valor de DLI que se va acumulando.
