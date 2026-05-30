@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  30 MAY 2026 15:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  30 MAY 2026 15:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1452,13 +1452,12 @@ File: Imagenes/GraficoPrimerMedicion.png Graphic file (type png)
 <use Imagenes/GraficoPrimerMedicion.png>
 Package pdftex.def Info: Imagenes/GraficoPrimerMedicion.png  used on input line 85.
 (pdftex.def)             Requested size: 441.01773pt x 218.67445pt.
- [40 <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg> <./Imagenes/Plantaciones/Cosecha23-022.JPG>]
-<Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg, id=791, 903.375pt x 1606.0pt>
+ [40 <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg> <./Imagenes/Plantaciones/Cosecha23-022.JPG>] [41 <./Imagenes/GraficoPrimerMedicion.png>]
+<Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg, id=796, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg>
 Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg  used on input line 96.
 (pdftex.def)             Requested size: 220.50887pt x 392.01537pt.
- [41 <./Imagenes/GraficoPrimerMedicion.png>]
 <Imagenes/Plantaciones/PHOTO-2026-02-28-20-01-16.jpg, id=797, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-28-20-01-16.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-28-20-01-16.jpg>
@@ -1601,7 +1600,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  80i,12n,120p,1593b,1434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (76 pages, 26252646 bytes).
+Output written on main.pdf (76 pages, 26253256 bytes).
 PDF statistics:
  998 PDF objects out of 1000 (max. 8388607)
  817 compressed objects within 9 object streams
