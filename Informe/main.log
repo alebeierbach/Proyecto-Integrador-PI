@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  29 MAY 2026 19:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  30 MAY 2026 15:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1401,12 +1401,12 @@ Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-01-28-15-14-25 2.jpg  
 <Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg, id=760, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg>
-Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg  used on input line 24.
+Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg  used on input line 23.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
 <Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg, id=761, 1204.5pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg>
-Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg  used on input line 29.
+Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg  used on input line 28.
 (pdftex.def)             Requested size: 211.67285pt x 282.23048pt.
  [36
 
@@ -1414,43 +1414,43 @@ Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg  us
 <Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg, id=770, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg>
-Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg  used on input line 38.
+Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg  used on input line 37.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
 <Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg, id=771, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg>
-Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg  used on input line 43.
+Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg  used on input line 42.
 (pdftex.def)             Requested size: 160.03659pt x 284.50949pt.
 <Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg, id=772, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg>
-Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg  used on input line 50.
+Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg  used on input line 49.
 (pdftex.def)             Requested size: 220.50887pt x 392.01537pt.
 <Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg, id=773, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg>
-Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg  used on input line 59.
+Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg  used on input line 58.
 (pdftex.def)             Requested size: 136.71342pt x 243.0461pt.
 <Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg, id=774, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg>
-Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg  used on input line 64.
+Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg  used on input line 63.
 (pdftex.def)             Requested size: 136.71342pt x 243.0461pt.
 <Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg, id=775, 903.375pt x 1606.0pt>
 File: Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg Graphic file (type jpg)
 <use Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg>
-Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg  used on input line 69.
+Package pdftex.def Info: Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg  used on input line 68.
 (pdftex.def)             Requested size: 136.71342pt x 243.0461pt.
  [38 <./Imagenes/Plantaciones/PHOTO-2026-02-05-12-14-55.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-05-12-57-14.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-15.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-17-11-02-20.jpg>] [39 <./Imagenes/Plantaciones/PHOTO-2026-02-19-15-40-45.jpg>]
 <Imagenes/Plantaciones/Cosecha23-022.JPG, id=784, 4047.12pt x 3035.34pt>
 File: Imagenes/Plantaciones/Cosecha23-022.JPG Graphic file (type jpg)
 <use Imagenes/Plantaciones/Cosecha23-022.JPG>
-Package pdftex.def Info: Imagenes/Plantaciones/Cosecha23-022.JPG  used on input line 77.
+Package pdftex.def Info: Imagenes/Plantaciones/Cosecha23-022.JPG  used on input line 76.
 (pdftex.def)             Requested size: 220.50887pt x 165.34633pt.
 <Imagenes/GraficoPrimerMedicion.png, id=785, 1040.688pt x 516.0078pt>
 File: Imagenes/GraficoPrimerMedicion.png Graphic file (type png)
 <use Imagenes/GraficoPrimerMedicion.png>
-Package pdftex.def Info: Imagenes/GraficoPrimerMedicion.png  used on input line 86.
+Package pdftex.def Info: Imagenes/GraficoPrimerMedicion.png  used on input line 85.
 (pdftex.def)             Requested size: 441.01773pt x 218.67445pt.
  [40 <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-32-17.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-37.jpg> <./Imagenes/Plantaciones/PHOTO-2026-02-23-18-36-45.jpg> <./Imagenes/Plantaciones/Cosecha23-022.JPG>]
 <Imagenes/Plantaciones/PHOTO-2026-02-26-20-17-45.jpg, id=791, 903.375pt x 1606.0pt>
@@ -1599,9 +1599,9 @@ Here is how much of TeX's memory you used:
  53165 multiletter control sequences out of 15000+600000
  684737 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,12n,120p,1365b,1434s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,12n,120p,1593b,1434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (76 pages, 26251432 bytes).
+Output written on main.pdf (76 pages, 26252646 bytes).
 PDF statistics:
  998 PDF objects out of 1000 (max. 8388607)
  817 compressed objects within 9 object streams

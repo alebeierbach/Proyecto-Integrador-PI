@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1780092677.44952 "/Users/alebeierbach/Documents/GitHub/Proyecto-Integrador-PI/Informe/main.tex" "main.pdf" "main" 1780092681.32138 0
+["pdflatex"] 1780166448.58374 "/Users/alebeierbach/Documents/GitHub/Proyecto-Integrador-PI/Informe/main.tex" "main.pdf" "main" 1780166452.6807 0
   "/Users/alebeierbach/Documents/GitHub/Proyecto-Integrador-PI/Informe/main.tex" 1779206696.28951 1613 c5e8ac2524f325cae5a700be82ba0e76 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc" 1698694482 3136 bbe665bd0bb471a2da1e8fd326cff9fa ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1698694482 2914 fdbc4a54b9bc76f4551b5303f2737d33 ""
@@ -231,12 +231,12 @@
   "capitulos/02_marco_teorico.tex" 1779202690.92461 745 f0230a9724fae739dbd03d99add1d1ce ""
   "capitulos/03_marco_metodologico.tex" 1779796519.50916 17261 0245184967115f815ba581721cdd5a01 ""
   "capitulos/04_desarrollo.tex" 1780092669.2635 49152 8818611bc554a166fb032529c40262d4 ""
-  "main.aux" 1780092681.19214 22311 247fd441442da16906f50765311657d5 "pdflatex"
-  "main.lof" 1780092681.19555 4477 da39fe53a10e5114225b3f2dc577a1ac "pdflatex"
-  "main.lot" 1780092681.19552 285 352625d830dc0e82fa6a2e5155fa7029 "pdflatex"
-  "main.out" 1780092681.19514 15231 5f6935cf3e564c6c893cf27ff75cea35 "pdflatex"
+  "main.aux" 1780166452.5423 22311 247fd441442da16906f50765311657d5 "pdflatex"
+  "main.lof" 1780166452.54573 4477 da39fe53a10e5114225b3f2dc577a1ac "pdflatex"
+  "main.lot" 1780166452.5457 285 352625d830dc0e82fa6a2e5155fa7029 "pdflatex"
+  "main.out" 1780166452.54534 15231 5f6935cf3e564c6c893cf27ff75cea35 "pdflatex"
   "main.tex" 1779206696.28951 1613 c5e8ac2524f325cae5a700be82ba0e76 ""
-  "main.toc" 1780092681.19545 8328 f3485761c6d72aba2734eadfa3b74443 "pdflatex"
+  "main.toc" 1780166452.54563 8328 f3485761c6d72aba2734eadfa3b74443 "pdflatex"
   "paginas/abstract.tex" 1779202690.9919 638 0b1eb7f350e2032738182982fd49f7be ""
   "paginas/agradecimientos.tex" 1779202690.99229 76 679d4a893fa5c8648ce855450931ca0d ""
   "paginas/dedicatoria.tex" 1779202690.9927 68 2428843a3164994834f432f72b828f83 ""
@@ -250,7 +250,7 @@
   "secciones/bibliografia.tex" 1779976161.57176 516 c9ac34b72ab49e6b3418dc03ab895cc4 ""
   "secciones/conclusiones.tex" 1779202679.58907 936 342496793c7775b9dcfa6c7412124bb9 ""
   "secciones/referencias.tex" 1779976263.2566 1003 b91711489e68dec2aaf38077dedff408 ""
-  "secciones/resultados.tex" 1780086733.84605 10940 4d2613ebaf42e656ea69d4a90dc2e3ce ""
+  "secciones/resultados.tex" 1780166448.30333 12478 158d07bbfe543c2b7a0c20efb4b6a937 ""
   (generated)
   "main.aux"
   "main.lof"
